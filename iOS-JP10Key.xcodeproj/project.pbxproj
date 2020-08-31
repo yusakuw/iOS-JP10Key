@@ -1,0 +1,1416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF9F3AB24FCE1BF009CA4A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3AA24FCE1BF009CA4A9 /* AppDelegate.swift */; };
+		5AF9F3AD24FCE1BF009CA4A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3AC24FCE1BF009CA4A9 /* SceneDelegate.swift */; };
+		5AF9F3AF24FCE1BF009CA4A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3AE24FCE1BF009CA4A9 /* ViewController.swift */; };
+		5AF9F3B224FCE1BF009CA4A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9F3B024FCE1BF009CA4A9 /* Main.storyboard */; };
+		5AF9F3B424FCE1C0009CA4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9F3B324FCE1C0009CA4A9 /* Assets.xcassets */; };
+		5AF9F3B724FCE1C0009CA4A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9F3B524FCE1C0009CA4A9 /* LaunchScreen.storyboard */; };
+		5AF9F3C524FCE2F9009CA4A9 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3C424FCE2F9009CA4A9 /* KeyboardViewController.swift */; };
+		5AF9F3C924FCE2F9009CA4A9 /* JP10Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5AF9F3C224FCE2F9009CA4A9 /* JP10Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5AF9F3DF24FCE551009CA4A9 /* KeyLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3CF24FCE551009CA4A9 /* KeyLabels.swift */; };
+		5AF9F3E024FCE551009CA4A9 /* InputManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D024FCE551009CA4A9 /* InputManager.mm */; };
+		5AF9F3E124FCE551009CA4A9 /* CandidateCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D124FCE551009CA4A9 /* CandidateCollectionViewController.swift */; };
+		5AF9F3E224FCE551009CA4A9 /* Candidate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D224FCE551009CA4A9 /* Candidate.storyboard */; };
+		5AF9F3E324FCE551009CA4A9 /* KanaMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D324FCE551009CA4A9 /* KanaMod.swift */; };
+		5AF9F3E424FCE551009CA4A9 /* InputCandidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D424FCE551009CA4A9 /* InputCandidate.m */; };
+		5AF9F3E524FCE551009CA4A9 /* RawKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D524FCE551009CA4A9 /* RawKeyManager.swift */; };
+		5AF9F3E624FCE551009CA4A9 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D624FCE551009CA4A9 /* KeyboardView.swift */; };
+		5AF9F3E824FCE551009CA4A9 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D924FCE551009CA4A9 /* KeyboardView.xib */; };
+		5AF9F3E924FCE551009CA4A9 /* KeyPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3DA24FCE551009CA4A9 /* KeyPopupView.swift */; };
+		5AF9F3EA24FCE551009CA4A9 /* KeyDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3DB24FCE551009CA4A9 /* KeyDirection.swift */; };
+		5AF9F3EB24FCE551009CA4A9 /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3DC24FCE551009CA4A9 /* KeyButton.swift */; };
+		5AF9F3EC24FCE551009CA4A9 /* KeyboardMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3DD24FCE551009CA4A9 /* KeyboardMode.swift */; };
+		5AF9F3EF24FCEC88009CA4A9 /* RawKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D524FCE551009CA4A9 /* RawKeyManager.swift */; };
+		5AF9F3F024FCEC88009CA4A9 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D624FCE551009CA4A9 /* KeyboardView.swift */; };
+		5AF9F3F124FCEC88009CA4A9 /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3DC24FCE551009CA4A9 /* KeyButton.swift */; };
+		5AF9F3F224FCEC88009CA4A9 /* KeyLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3CF24FCE551009CA4A9 /* KeyLabels.swift */; };
+		5AF9F3F324FCEC88009CA4A9 /* KeyDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3DB24FCE551009CA4A9 /* KeyDirection.swift */; };
+		5AF9F3F424FCEC88009CA4A9 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3C424FCE2F9009CA4A9 /* KeyboardViewController.swift */; };
+		5AF9F3F524FCEC88009CA4A9 /* KeyboardMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3DD24FCE551009CA4A9 /* KeyboardMode.swift */; };
+		5AF9F3F624FCEC88009CA4A9 /* KeyPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3DA24FCE551009CA4A9 /* KeyPopupView.swift */; };
+		5AF9F3F724FCEC88009CA4A9 /* InputCandidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D424FCE551009CA4A9 /* InputCandidate.m */; };
+		5AF9F3F824FCEC88009CA4A9 /* KanaMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D324FCE551009CA4A9 /* KanaMod.swift */; };
+		5AF9F3F924FCEC88009CA4A9 /* CandidateCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D124FCE551009CA4A9 /* CandidateCollectionViewController.swift */; };
+		5AF9F3FA24FCEC88009CA4A9 /* InputManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D024FCE551009CA4A9 /* InputManager.mm */; };
+		5AF9F3FD24FCEC88009CA4A9 /* Candidate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D224FCE551009CA4A9 /* Candidate.storyboard */; };
+		5AF9F3FE24FCEC88009CA4A9 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9F3D924FCE551009CA4A9 /* KeyboardView.xib */; };
+		5AF9F45C24FCECC8009CA4A9 /* libbase_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40C24FCECB3009CA4A9 /* libbase_core.a */; };
+		5AF9F45D24FCECC8009CA4A9 /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45624FCECB4009CA4A9 /* libbase.a */; };
+		5AF9F45E24FCECC8009CA4A9 /* libbit_stream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40E24FCECB3009CA4A9 /* libbit_stream.a */; };
+		5AF9F45F24FCECC8009CA4A9 /* libbit_vector_based_array_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42024FCECB3009CA4A9 /* libbit_vector_based_array_builder.a */; };
+		5AF9F46024FCECC8009CA4A9 /* libbit_vector_based_array.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44124FCECB3009CA4A9 /* libbit_vector_based_array.a */; };
+		5AF9F46124FCECC8009CA4A9 /* libcached_connector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42424FCECB3009CA4A9 /* libcached_connector.a */; };
+		5AF9F46224FCECC8009CA4A9 /* libcalculator_mock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40F24FCECB3009CA4A9 /* libcalculator_mock.a */; };
+		5AF9F46324FCECC8009CA4A9 /* libcalculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44924FCECB3009CA4A9 /* libcalculator.a */; };
+		5AF9F46424FCECC8009CA4A9 /* libcharacter_form_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41924FCECB3009CA4A9 /* libcharacter_form_manager.a */; };
+		5AF9F46524FCECC8009CA4A9 /* libcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41B24FCECB3009CA4A9 /* libcodec.a */; };
+		5AF9F46624FCECC8009CA4A9 /* libcomposer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44324FCECB3009CA4A9 /* libcomposer.a */; };
+		5AF9F46724FCECC8009CA4A9 /* libconfig_file_stream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44D24FCECB4009CA4A9 /* libconfig_file_stream.a */; };
+		5AF9F46824FCECC8009CA4A9 /* libconfig_handler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42F24FCECB3009CA4A9 /* libconfig_handler.a */; };
+		5AF9F46924FCECC8009CA4A9 /* libconfig_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44424FCECB3009CA4A9 /* libconfig_protocol.a */; };
+		5AF9F46A24FCECC8009CA4A9 /* libconnection_file_reader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45924FCECB4009CA4A9 /* libconnection_file_reader.a */; };
+		5AF9F46B24FCECC8009CA4A9 /* libconnector_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40924FCECB3009CA4A9 /* libconnector_base.a */; };
+		5AF9F46C24FCECC8009CA4A9 /* libconversion_request.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41424FCECB3009CA4A9 /* libconversion_request.a */; };
+		5AF9F46D24FCECC8009CA4A9 /* libconverter_mock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44F24FCECB4009CA4A9 /* libconverter_mock.a */; };
+		5AF9F46E24FCECC8009CA4A9 /* libconverter_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43E24FCECB3009CA4A9 /* libconverter_util.a */; };
+		5AF9F46F24FCECC8009CA4A9 /* libconverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42824FCECB3009CA4A9 /* libconverter.a */; };
+		5AF9F47024FCECC8009CA4A9 /* libcrash_report_handler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44024FCECB3009CA4A9 /* libcrash_report_handler.a */; };
+		5AF9F47124FCECC8009CA4A9 /* libdictionary_file_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44524FCECB3009CA4A9 /* libdictionary_file_builder.a */; };
+		5AF9F47224FCECC8009CA4A9 /* libdictionary_file.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41324FCECB3009CA4A9 /* libdictionary_file.a */; };
+		5AF9F47324FCECC8009CA4A9 /* libdictionary_impl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42E24FCECB3009CA4A9 /* libdictionary_impl.a */; };
+		5AF9F47424FCECC8009CA4A9 /* libdictionary_mock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44A24FCECB3009CA4A9 /* libdictionary_mock.a */; };
+		5AF9F47524FCECC8009CA4A9 /* libdictionary_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41A24FCECB3009CA4A9 /* libdictionary_protocol.a */; };
+		5AF9F47624FCECC8009CA4A9 /* libdictionary_test_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43A24FCECB3009CA4A9 /* libdictionary_test_util.a */; };
+		5AF9F47724FCECC8009CA4A9 /* libencryptor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45824FCECB4009CA4A9 /* libencryptor.a */; };
+		5AF9F47824FCECC8009CA4A9 /* libengine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43024FCECB3009CA4A9 /* libengine.a */; };
+		5AF9F47924FCECC8009CA4A9 /* libgen_existence_data.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41C24FCECB3009CA4A9 /* libgen_existence_data.a */; };
+		5AF9F47A24FCECC9009CA4A9 /* libgen_segmenter_bitarray.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40524FCECB2009CA4A9 /* libgen_segmenter_bitarray.a */; };
+		5AF9F47B24FCECC9009CA4A9 /* libgeneric_storage_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43624FCECB3009CA4A9 /* libgeneric_storage_manager.a */; };
+		5AF9F47C24FCECC9009CA4A9 /* libime_switch_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42324FCECB3009CA4A9 /* libime_switch_util.a */; };
+		5AF9F47D24FCECC9009CA4A9 /* libimmutable_converter_interface.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43F24FCECB3009CA4A9 /* libimmutable_converter_interface.a */; };
+		5AF9F47E24FCECC9009CA4A9 /* libimmutable_converter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41524FCECB3009CA4A9 /* libimmutable_converter.a */; };
+		5AF9F47F24FCECC9009CA4A9 /* libkey_event_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41E24FCECB3009CA4A9 /* libkey_event_util.a */; };
+		5AF9F48024FCECC9009CA4A9 /* libkey_info_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41D24FCECB3009CA4A9 /* libkey_info_util.a */; };
+		5AF9F48124FCECC9009CA4A9 /* libkey_parser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43124FCECB3009CA4A9 /* libkey_parser.a */; };
+		5AF9F48224FCECC9009CA4A9 /* libkeymap_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43924FCECB3009CA4A9 /* libkeymap_factory.a */; };
+		5AF9F48324FCECC9009CA4A9 /* libkeymap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44224FCECB3009CA4A9 /* libkeymap.a */; };
+		5AF9F48424FCECC9009CA4A9 /* liblattice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43424FCECB3009CA4A9 /* liblattice.a */; };
+		5AF9F48524FCECC9009CA4A9 /* liblouds_trie_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43724FCECB3009CA4A9 /* liblouds_trie_builder.a */; };
+		5AF9F48624FCECC9009CA4A9 /* liblouds_trie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44724FCECB3009CA4A9 /* liblouds_trie.a */; };
+		5AF9F48724FCECC9009CA4A9 /* libmock_converter_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42724FCECB3009CA4A9 /* libmock_converter_engine.a */; };
+		5AF9F48824FCECCA009CA4A9 /* libmock_data_engine_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45A24FCECB4009CA4A9 /* libmock_data_engine_factory.a */; };
+		5AF9F48924FCECCA009CA4A9 /* libmock_user_pos_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42C24FCECB3009CA4A9 /* libmock_user_pos_manager.a */; };
+		5AF9F48A24FCECCA009CA4A9 /* libmultifile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44C24FCECB4009CA4A9 /* libmultifile.a */; };
+		5AF9F48B24FCECCA009CA4A9 /* libobfuscator_support.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44E24FCECB4009CA4A9 /* libobfuscator_support.a */; };
+		5AF9F48C24FCECCA009CA4A9 /* liboss_data_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45B24FCECB4009CA4A9 /* liboss_data_manager.a */; };
+		5AF9F48D24FCECCA009CA4A9 /* liboss_engine_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42124FCECB3009CA4A9 /* liboss_engine_factory.a */; };
+		5AF9F48E24FCECCA009CA4A9 /* liboss_user_pos_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41024FCECB3009CA4A9 /* liboss_user_pos_manager.a */; };
+		5AF9F48F24FCECCA009CA4A9 /* liboutput_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45224FCECB4009CA4A9 /* liboutput_util.a */; };
+		5AF9F49024FCECCA009CA4A9 /* libpacked_engine_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41F24FCECB3009CA4A9 /* libpacked_engine_factory.a */; };
+		5AF9F49124FCECCA009CA4A9 /* libpos_id_printer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44624FCECB3009CA4A9 /* libpos_id_printer.a */; };
+		5AF9F49224FCECCB009CA4A9 /* libprediction_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45024FCECB4009CA4A9 /* libprediction_protocol.a */; };
+		5AF9F49324FCECCB009CA4A9 /* libprediction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42524FCECB3009CA4A9 /* libprediction.a */; };
+		5AF9F49424FCECCB009CA4A9 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45124FCECB4009CA4A9 /* libprotobuf.a */; };
+		5AF9F49524FCECCB009CA4A9 /* librandom_keyevents_generator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40824FCECB3009CA4A9 /* librandom_keyevents_generator.a */; };
+		5AF9F49624FCECCB009CA4A9 /* librequest_test_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43824FCECB3009CA4A9 /* librequest_test_util.a */; };
+		5AF9F49724FCECCB009CA4A9 /* librewriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42624FCECB3009CA4A9 /* librewriter.a */; };
+		5AF9F49824FCECCB009CA4A9 /* libsegmenter_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40624FCECB2009CA4A9 /* libsegmenter_base.a */; };
+		5AF9F49924FCECCB009CA4A9 /* libsegments.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44824FCECB3009CA4A9 /* libsegments.a */; };
+		5AF9F49A24FCECCB009CA4A9 /* libsession_handler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F44B24FCECB4009CA4A9 /* libsession_handler.a */; };
+		5AF9F49B24FCECCC009CA4A9 /* libsession_internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40724FCECB2009CA4A9 /* libsession_internal.a */; };
+		5AF9F49C24FCECCC009CA4A9 /* libsession_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43524FCECB3009CA4A9 /* libsession_protocol.a */; };
+		5AF9F49D24FCECCC009CA4A9 /* libsession_server.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45324FCECB4009CA4A9 /* libsession_server.a */; };
+		5AF9F49E24FCECCC009CA4A9 /* libsession_usage_observer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43324FCECB3009CA4A9 /* libsession_usage_observer.a */; };
+		5AF9F49F24FCECCC009CA4A9 /* libsession_usage_stats_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45424FCECB4009CA4A9 /* libsession_usage_stats_util.a */; };
+		5AF9F4A024FCECCC009CA4A9 /* libsession.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41824FCECB3009CA4A9 /* libsession.a */; };
+		5AF9F4A124FCECCC009CA4A9 /* libsimple_succinct_bit_vector_index.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43B24FCECB3009CA4A9 /* libsimple_succinct_bit_vector_index.a */; };
+		5AF9F4A224FCECCC009CA4A9 /* libsparse_connector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41124FCECB3009CA4A9 /* libsparse_connector.a */; };
+		5AF9F4A324FCECCD009CA4A9 /* libstats_config_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40A24FCECB3009CA4A9 /* libstats_config_util.a */; };
+		5AF9F4A424FCECCD009CA4A9 /* libstorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45524FCECB4009CA4A9 /* libstorage.a */; };
+		5AF9F4A524FCECCD009CA4A9 /* libsuffix_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41624FCECB3009CA4A9 /* libsuffix_dictionary.a */; };
+		5AF9F4A624FCECCD009CA4A9 /* libsuggestion_filter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42924FCECB3009CA4A9 /* libsuggestion_filter.a */; };
+		5AF9F4A724FCECCD009CA4A9 /* libsuppression_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42A24FCECB3009CA4A9 /* libsuppression_dictionary.a */; };
+		5AF9F4A824FCECCD009CA4A9 /* libsystem_dictionary_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F45724FCECB4009CA4A9 /* libsystem_dictionary_builder.a */; };
+		5AF9F4A924FCECCD009CA4A9 /* libsystem_dictionary_codec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43C24FCECB3009CA4A9 /* libsystem_dictionary_codec.a */; };
+		5AF9F4AA24FCECCE009CA4A9 /* libsystem_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42224FCECB3009CA4A9 /* libsystem_dictionary.a */; };
+		5AF9F4AB24FCECCE009CA4A9 /* libtext_dictionary_loader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40B24FCECB3009CA4A9 /* libtext_dictionary_loader.a */; };
+		5AF9F4AC24FCECCE009CA4A9 /* libtransliteration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41724FCECB3009CA4A9 /* libtransliteration.a */; };
+		5AF9F4AD24FCECCE009CA4A9 /* libusage_stats_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F41224FCECB3009CA4A9 /* libusage_stats_protocol.a */; };
+		5AF9F4AE24FCECCE009CA4A9 /* libusage_stats_uploader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F40D24FCECB3009CA4A9 /* libusage_stats_uploader.a */; };
+		5AF9F4AF24FCECCE009CA4A9 /* libusage_stats.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43224FCECB3009CA4A9 /* libusage_stats.a */; };
+		5AF9F4B024FCECCF009CA4A9 /* libuser_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42B24FCECB3009CA4A9 /* libuser_dictionary.a */; };
+		5AF9F4B124FCECCF009CA4A9 /* libuser_pos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F43D24FCECB3009CA4A9 /* libuser_pos.a */; };
+		5AF9F4B224FCECCF009CA4A9 /* libvalue_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F42D24FCECB3009CA4A9 /* libvalue_dictionary.a */; };
+		5AF9F50A24FCECE7009CA4A9 /* libbase_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4DE24FCECDE009CA4A9 /* libbase_core.a */; };
+		5AF9F50B24FCECE7009CA4A9 /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50124FCECDF009CA4A9 /* libbase.a */; };
+		5AF9F50C24FCECE7009CA4A9 /* libbit_stream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D124FCECDE009CA4A9 /* libbit_stream.a */; };
+		5AF9F50D24FCECE7009CA4A9 /* libbit_vector_based_array_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4BA24FCECDD009CA4A9 /* libbit_vector_based_array_builder.a */; };
+		5AF9F50E24FCECE7009CA4A9 /* libbit_vector_based_array.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4BD24FCECDD009CA4A9 /* libbit_vector_based_array.a */; };
+		5AF9F50F24FCECE7009CA4A9 /* libcached_connector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F624FCECDE009CA4A9 /* libcached_connector.a */; };
+		5AF9F51024FCECE7009CA4A9 /* libcalculator_mock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50624FCECDF009CA4A9 /* libcalculator_mock.a */; };
+		5AF9F51124FCECE7009CA4A9 /* libcalculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E924FCECDE009CA4A9 /* libcalculator.a */; };
+		5AF9F51224FCECE7009CA4A9 /* libcharacter_form_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D324FCECDE009CA4A9 /* libcharacter_form_manager.a */; };
+		5AF9F51324FCECE7009CA4A9 /* libcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C724FCECDE009CA4A9 /* libcodec.a */; };
+		5AF9F51424FCECE7009CA4A9 /* libcomposer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D824FCECDE009CA4A9 /* libcomposer.a */; };
+		5AF9F51524FCECE7009CA4A9 /* libconfig_file_stream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50024FCECDF009CA4A9 /* libconfig_file_stream.a */; };
+		5AF9F51624FCECE7009CA4A9 /* libconfig_handler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F124FCECDE009CA4A9 /* libconfig_handler.a */; };
+		5AF9F51724FCECE7009CA4A9 /* libconfig_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E224FCECDE009CA4A9 /* libconfig_protocol.a */; };
+		5AF9F51824FCECE7009CA4A9 /* libconnection_file_reader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4CA24FCECDE009CA4A9 /* libconnection_file_reader.a */; };
+		5AF9F51924FCECE7009CA4A9 /* libconnector_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C524FCECDE009CA4A9 /* libconnector_base.a */; };
+		5AF9F51A24FCECE7009CA4A9 /* libconversion_request.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4FB24FCECDF009CA4A9 /* libconversion_request.a */; };
+		5AF9F51B24FCECE7009CA4A9 /* libconverter_mock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50324FCECDF009CA4A9 /* libconverter_mock.a */; };
+		5AF9F51C24FCECE7009CA4A9 /* libconverter_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4DC24FCECDE009CA4A9 /* libconverter_util.a */; };
+		5AF9F51D24FCECE7009CA4A9 /* libconverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F324FCECDE009CA4A9 /* libconverter.a */; };
+		5AF9F51E24FCECE7009CA4A9 /* libcrash_report_handler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4FF24FCECDF009CA4A9 /* libcrash_report_handler.a */; };
+		5AF9F51F24FCECE7009CA4A9 /* libdictionary_file_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D024FCECDE009CA4A9 /* libdictionary_file_builder.a */; };
+		5AF9F52024FCECE7009CA4A9 /* libdictionary_file.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F024FCECDE009CA4A9 /* libdictionary_file.a */; };
+		5AF9F52124FCECE7009CA4A9 /* libdictionary_impl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D424FCECDE009CA4A9 /* libdictionary_impl.a */; };
+		5AF9F52224FCECE7009CA4A9 /* libdictionary_mock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F424FCECDE009CA4A9 /* libdictionary_mock.a */; };
+		5AF9F52324FCECE7009CA4A9 /* libdictionary_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E024FCECDE009CA4A9 /* libdictionary_protocol.a */; };
+		5AF9F52424FCECE7009CA4A9 /* libdictionary_test_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4BE24FCECDD009CA4A9 /* libdictionary_test_util.a */; };
+		5AF9F52524FCECE7009CA4A9 /* libencryptor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4B924FCECDD009CA4A9 /* libencryptor.a */; };
+		5AF9F52624FCECE8009CA4A9 /* libengine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4BB24FCECDD009CA4A9 /* libengine.a */; };
+		5AF9F52724FCECE8009CA4A9 /* libgen_existence_data.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4B524FCECDD009CA4A9 /* libgen_existence_data.a */; };
+		5AF9F52824FCECE8009CA4A9 /* libgen_segmenter_bitarray.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C324FCECDE009CA4A9 /* libgen_segmenter_bitarray.a */; };
+		5AF9F52924FCECE8009CA4A9 /* libgeneric_storage_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50724FCECDF009CA4A9 /* libgeneric_storage_manager.a */; };
+		5AF9F52A24FCECE8009CA4A9 /* libime_switch_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C824FCECDE009CA4A9 /* libime_switch_util.a */; };
+		5AF9F52B24FCECE8009CA4A9 /* libimmutable_converter_interface.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4DF24FCECDE009CA4A9 /* libimmutable_converter_interface.a */; };
+		5AF9F52C24FCECE8009CA4A9 /* libimmutable_converter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C424FCECDE009CA4A9 /* libimmutable_converter.a */; };
+		5AF9F52D24FCECE8009CA4A9 /* libkey_event_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50824FCECDF009CA4A9 /* libkey_event_util.a */; };
+		5AF9F52E24FCECE8009CA4A9 /* libkey_info_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4EB24FCECDE009CA4A9 /* libkey_info_util.a */; };
+		5AF9F52F24FCECE8009CA4A9 /* libkey_parser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F524FCECDE009CA4A9 /* libkey_parser.a */; };
+		5AF9F53024FCECE8009CA4A9 /* libkeymap_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4CF24FCECDE009CA4A9 /* libkeymap_factory.a */; };
+		5AF9F53124FCECE8009CA4A9 /* libkeymap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50524FCECDF009CA4A9 /* libkeymap.a */; };
+		5AF9F53224FCECE8009CA4A9 /* liblattice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C224FCECDE009CA4A9 /* liblattice.a */; };
+		5AF9F53324FCECE8009CA4A9 /* liblouds_trie_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C624FCECDE009CA4A9 /* liblouds_trie_builder.a */; };
+		5AF9F53424FCECE9009CA4A9 /* liblouds_trie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4B724FCECDD009CA4A9 /* liblouds_trie.a */; };
+		5AF9F53524FCECE9009CA4A9 /* libmock_converter_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E724FCECDE009CA4A9 /* libmock_converter_engine.a */; };
+		5AF9F53624FCECE9009CA4A9 /* libmock_data_engine_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4DB24FCECDE009CA4A9 /* libmock_data_engine_factory.a */; };
+		5AF9F53724FCECE9009CA4A9 /* libmock_user_pos_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4EC24FCECDE009CA4A9 /* libmock_user_pos_manager.a */; };
+		5AF9F53824FCECE9009CA4A9 /* libmultifile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4B624FCECDD009CA4A9 /* libmultifile.a */; };
+		5AF9F53924FCECE9009CA4A9 /* libobfuscator_support.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50224FCECDF009CA4A9 /* libobfuscator_support.a */; };
+		5AF9F53A24FCECE9009CA4A9 /* liboss_data_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E824FCECDE009CA4A9 /* liboss_data_manager.a */; };
+		5AF9F53B24FCECE9009CA4A9 /* liboss_engine_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4FE24FCECDF009CA4A9 /* liboss_engine_factory.a */; };
+		5AF9F53C24FCECE9009CA4A9 /* liboss_user_pos_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4CE24FCECDE009CA4A9 /* liboss_user_pos_manager.a */; };
+		5AF9F53D24FCECE9009CA4A9 /* liboutput_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4DD24FCECDE009CA4A9 /* liboutput_util.a */; };
+		5AF9F53E24FCECE9009CA4A9 /* libpacked_engine_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4FA24FCECDF009CA4A9 /* libpacked_engine_factory.a */; };
+		5AF9F53F24FCECEA009CA4A9 /* libpos_id_printer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50924FCECDF009CA4A9 /* libpos_id_printer.a */; };
+		5AF9F54024FCECEA009CA4A9 /* libprediction_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C924FCECDE009CA4A9 /* libprediction_protocol.a */; };
+		5AF9F54124FCECEA009CA4A9 /* libprediction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F224FCECDE009CA4A9 /* libprediction.a */; };
+		5AF9F54224FCECEA009CA4A9 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F724FCECDE009CA4A9 /* libprotobuf.a */; };
+		5AF9F54324FCECEA009CA4A9 /* librandom_keyevents_generator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F924FCECDF009CA4A9 /* librandom_keyevents_generator.a */; };
+		5AF9F54424FCECEA009CA4A9 /* librequest_test_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E324FCECDE009CA4A9 /* librequest_test_util.a */; };
+		5AF9F54524FCECEA009CA4A9 /* librewriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E124FCECDE009CA4A9 /* librewriter.a */; };
+		5AF9F54624FCECEA009CA4A9 /* libsegmenter_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D924FCECDE009CA4A9 /* libsegmenter_base.a */; };
+		5AF9F54724FCECEA009CA4A9 /* libsegments.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4EA24FCECDE009CA4A9 /* libsegments.a */; };
+		5AF9F54824FCECEB009CA4A9 /* libsession_handler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4CB24FCECDE009CA4A9 /* libsession_handler.a */; };
+		5AF9F54924FCECEB009CA4A9 /* libsession_internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4DA24FCECDE009CA4A9 /* libsession_internal.a */; };
+		5AF9F54A24FCECEB009CA4A9 /* libsession_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E424FCECDE009CA4A9 /* libsession_protocol.a */; };
+		5AF9F54B24FCECEB009CA4A9 /* libsession_server.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E524FCECDE009CA4A9 /* libsession_server.a */; };
+		5AF9F54C24FCECEB009CA4A9 /* libsession_usage_observer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4E624FCECDE009CA4A9 /* libsession_usage_observer.a */; };
+		5AF9F54D24FCECEB009CA4A9 /* libsession_usage_stats_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D624FCECDE009CA4A9 /* libsession_usage_stats_util.a */; };
+		5AF9F54E24FCECEB009CA4A9 /* libsession.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4CC24FCECDE009CA4A9 /* libsession.a */; };
+		5AF9F54F24FCECEB009CA4A9 /* libsimple_succinct_bit_vector_index.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D224FCECDE009CA4A9 /* libsimple_succinct_bit_vector_index.a */; };
+		5AF9F55024FCECEC009CA4A9 /* libsparse_connector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4ED24FCECDE009CA4A9 /* libsparse_connector.a */; };
+		5AF9F55124FCECEC009CA4A9 /* libstats_config_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4BF24FCECDD009CA4A9 /* libstats_config_util.a */; };
+		5AF9F55224FCECEC009CA4A9 /* libstorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D524FCECDE009CA4A9 /* libstorage.a */; };
+		5AF9F55324FCECEC009CA4A9 /* libsuffix_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4B424FCECDD009CA4A9 /* libsuffix_dictionary.a */; };
+		5AF9F55424FCECEC009CA4A9 /* libsuggestion_filter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4EE24FCECDE009CA4A9 /* libsuggestion_filter.a */; };
+		5AF9F55524FCECEC009CA4A9 /* libsuppression_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C024FCECDE009CA4A9 /* libsuppression_dictionary.a */; };
+		5AF9F55624FCECEC009CA4A9 /* libsystem_dictionary_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4C124FCECDE009CA4A9 /* libsystem_dictionary_builder.a */; };
+		5AF9F55724FCECED009CA4A9 /* libsystem_dictionary_codec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4FD24FCECDF009CA4A9 /* libsystem_dictionary_codec.a */; };
+		5AF9F55824FCECED009CA4A9 /* libsystem_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4FC24FCECDF009CA4A9 /* libsystem_dictionary.a */; };
+		5AF9F55924FCECED009CA4A9 /* libtext_dictionary_loader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4EF24FCECDE009CA4A9 /* libtext_dictionary_loader.a */; };
+		5AF9F55A24FCECED009CA4A9 /* libtransliteration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F50424FCECDF009CA4A9 /* libtransliteration.a */; };
+		5AF9F55B24FCECED009CA4A9 /* libusage_stats_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4D724FCECDE009CA4A9 /* libusage_stats_protocol.a */; };
+		5AF9F55C24FCECED009CA4A9 /* libusage_stats_uploader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4B824FCECDD009CA4A9 /* libusage_stats_uploader.a */; };
+		5AF9F55D24FCECEE009CA4A9 /* libusage_stats.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4F824FCECDE009CA4A9 /* libusage_stats.a */; };
+		5AF9F55E24FCECEE009CA4A9 /* libuser_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4B324FCECDD009CA4A9 /* libuser_dictionary.a */; };
+		5AF9F55F24FCECEE009CA4A9 /* libuser_pos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4CD24FCECDE009CA4A9 /* libuser_pos.a */; };
+		5AF9F56024FCECEE009CA4A9 /* libvalue_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9F4BC24FCECDD009CA4A9 /* libvalue_dictionary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF9F3C724FCE2F9009CA4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF9F39F24FCE1BF009CA4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF9F3C124FCE2F9009CA4A9;
+			remoteInfo = JP10Keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AF9F3CD24FCE2F9009CA4A9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5AF9F3C924FCE2F9009CA4A9 /* JP10Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5AF9F3A724FCE1BF009CA4A9 /* iOS-JP10Key.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-JP10Key.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF9F3AA24FCE1BF009CA4A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AF9F3AC24FCE1BF009CA4A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5AF9F3AE24FCE1BF009CA4A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AF9F3B124FCE1BF009CA4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AF9F3B324FCE1C0009CA4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AF9F3B624FCE1C0009CA4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AF9F3B824FCE1C0009CA4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF9F3C224FCE2F9009CA4A9 /* JP10Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JP10Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF9F3C424FCE2F9009CA4A9 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		5AF9F3C624FCE2F9009CA4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF9F3CE24FCE550009CA4A9 /* JP10Keyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JP10Keyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AF9F3CF24FCE551009CA4A9 /* KeyLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyLabels.swift; sourceTree = "<group>"; };
+		5AF9F3D024FCE551009CA4A9 /* InputManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InputManager.mm; sourceTree = "<group>"; };
+		5AF9F3D124FCE551009CA4A9 /* CandidateCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateCollectionViewController.swift; sourceTree = "<group>"; };
+		5AF9F3D224FCE551009CA4A9 /* Candidate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Candidate.storyboard; sourceTree = "<group>"; };
+		5AF9F3D324FCE551009CA4A9 /* KanaMod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaMod.swift; sourceTree = "<group>"; };
+		5AF9F3D424FCE551009CA4A9 /* InputCandidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCandidate.m; sourceTree = "<group>"; };
+		5AF9F3D524FCE551009CA4A9 /* RawKeyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawKeyManager.swift; sourceTree = "<group>"; };
+		5AF9F3D624FCE551009CA4A9 /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		5AF9F3D824FCE551009CA4A9 /* InputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputManager.h; sourceTree = "<group>"; };
+		5AF9F3D924FCE551009CA4A9 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+		5AF9F3DA24FCE551009CA4A9 /* KeyPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPopupView.swift; sourceTree = "<group>"; };
+		5AF9F3DB24FCE551009CA4A9 /* KeyDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDirection.swift; sourceTree = "<group>"; };
+		5AF9F3DC24FCE551009CA4A9 /* KeyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyButton.swift; sourceTree = "<group>"; };
+		5AF9F3DD24FCE551009CA4A9 /* KeyboardMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardMode.swift; sourceTree = "<group>"; };
+		5AF9F3DE24FCE551009CA4A9 /* InputCandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCandidate.h; sourceTree = "<group>"; };
+		5AF9F40224FCEC88009CA4A9 /* JP10Keyboard-simulator.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JP10Keyboard-simulator.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF9F40524FCECB2009CA4A9 /* libgen_segmenter_bitarray.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgen_segmenter_bitarray.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libgen_segmenter_bitarray.a"; sourceTree = "<group>"; };
+		5AF9F40624FCECB2009CA4A9 /* libsegmenter_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsegmenter_base.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsegmenter_base.a"; sourceTree = "<group>"; };
+		5AF9F40724FCECB2009CA4A9 /* libsession_internal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_internal.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsession_internal.a"; sourceTree = "<group>"; };
+		5AF9F40824FCECB3009CA4A9 /* librandom_keyevents_generator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librandom_keyevents_generator.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/librandom_keyevents_generator.a"; sourceTree = "<group>"; };
+		5AF9F40924FCECB3009CA4A9 /* libconnector_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconnector_base.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconnector_base.a"; sourceTree = "<group>"; };
+		5AF9F40A24FCECB3009CA4A9 /* libstats_config_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstats_config_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libstats_config_util.a"; sourceTree = "<group>"; };
+		5AF9F40B24FCECB3009CA4A9 /* libtext_dictionary_loader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtext_dictionary_loader.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libtext_dictionary_loader.a"; sourceTree = "<group>"; };
+		5AF9F40C24FCECB3009CA4A9 /* libbase_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase_core.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libbase_core.a"; sourceTree = "<group>"; };
+		5AF9F40D24FCECB3009CA4A9 /* libusage_stats_uploader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusage_stats_uploader.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libusage_stats_uploader.a"; sourceTree = "<group>"; };
+		5AF9F40E24FCECB3009CA4A9 /* libbit_stream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbit_stream.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libbit_stream.a"; sourceTree = "<group>"; };
+		5AF9F40F24FCECB3009CA4A9 /* libcalculator_mock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcalculator_mock.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcalculator_mock.a"; sourceTree = "<group>"; };
+		5AF9F41024FCECB3009CA4A9 /* liboss_user_pos_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_user_pos_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liboss_user_pos_manager.a"; sourceTree = "<group>"; };
+		5AF9F41124FCECB3009CA4A9 /* libsparse_connector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsparse_connector.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsparse_connector.a"; sourceTree = "<group>"; };
+		5AF9F41224FCECB3009CA4A9 /* libusage_stats_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusage_stats_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libusage_stats_protocol.a"; sourceTree = "<group>"; };
+		5AF9F41324FCECB3009CA4A9 /* libdictionary_file.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_file.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_file.a"; sourceTree = "<group>"; };
+		5AF9F41424FCECB3009CA4A9 /* libconversion_request.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconversion_request.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconversion_request.a"; sourceTree = "<group>"; };
+		5AF9F41524FCECB3009CA4A9 /* libimmutable_converter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimmutable_converter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libimmutable_converter.a"; sourceTree = "<group>"; };
+		5AF9F41624FCECB3009CA4A9 /* libsuffix_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuffix_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsuffix_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F41724FCECB3009CA4A9 /* libtransliteration.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtransliteration.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libtransliteration.a"; sourceTree = "<group>"; };
+		5AF9F41824FCECB3009CA4A9 /* libsession.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsession.a"; sourceTree = "<group>"; };
+		5AF9F41924FCECB3009CA4A9 /* libcharacter_form_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcharacter_form_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcharacter_form_manager.a"; sourceTree = "<group>"; };
+		5AF9F41A24FCECB3009CA4A9 /* libdictionary_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_protocol.a"; sourceTree = "<group>"; };
+		5AF9F41B24FCECB3009CA4A9 /* libcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcodec.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcodec.a"; sourceTree = "<group>"; };
+		5AF9F41C24FCECB3009CA4A9 /* libgen_existence_data.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgen_existence_data.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libgen_existence_data.a"; sourceTree = "<group>"; };
+		5AF9F41D24FCECB3009CA4A9 /* libkey_info_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkey_info_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libkey_info_util.a"; sourceTree = "<group>"; };
+		5AF9F41E24FCECB3009CA4A9 /* libkey_event_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkey_event_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libkey_event_util.a"; sourceTree = "<group>"; };
+		5AF9F41F24FCECB3009CA4A9 /* libpacked_engine_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpacked_engine_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libpacked_engine_factory.a"; sourceTree = "<group>"; };
+		5AF9F42024FCECB3009CA4A9 /* libbit_vector_based_array_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbit_vector_based_array_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libbit_vector_based_array_builder.a"; sourceTree = "<group>"; };
+		5AF9F42124FCECB3009CA4A9 /* liboss_engine_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_engine_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liboss_engine_factory.a"; sourceTree = "<group>"; };
+		5AF9F42224FCECB3009CA4A9 /* libsystem_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsystem_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F42324FCECB3009CA4A9 /* libime_switch_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libime_switch_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libime_switch_util.a"; sourceTree = "<group>"; };
+		5AF9F42424FCECB3009CA4A9 /* libcached_connector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcached_connector.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcached_connector.a"; sourceTree = "<group>"; };
+		5AF9F42524FCECB3009CA4A9 /* libprediction.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprediction.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libprediction.a"; sourceTree = "<group>"; };
+		5AF9F42624FCECB3009CA4A9 /* librewriter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librewriter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/librewriter.a"; sourceTree = "<group>"; };
+		5AF9F42724FCECB3009CA4A9 /* libmock_converter_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmock_converter_engine.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libmock_converter_engine.a"; sourceTree = "<group>"; };
+		5AF9F42824FCECB3009CA4A9 /* libconverter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconverter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconverter.a"; sourceTree = "<group>"; };
+		5AF9F42924FCECB3009CA4A9 /* libsuggestion_filter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuggestion_filter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsuggestion_filter.a"; sourceTree = "<group>"; };
+		5AF9F42A24FCECB3009CA4A9 /* libsuppression_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuppression_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsuppression_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F42B24FCECB3009CA4A9 /* libuser_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuser_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libuser_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F42C24FCECB3009CA4A9 /* libmock_user_pos_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmock_user_pos_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libmock_user_pos_manager.a"; sourceTree = "<group>"; };
+		5AF9F42D24FCECB3009CA4A9 /* libvalue_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvalue_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libvalue_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F42E24FCECB3009CA4A9 /* libdictionary_impl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_impl.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_impl.a"; sourceTree = "<group>"; };
+		5AF9F42F24FCECB3009CA4A9 /* libconfig_handler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_handler.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconfig_handler.a"; sourceTree = "<group>"; };
+		5AF9F43024FCECB3009CA4A9 /* libengine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libengine.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libengine.a"; sourceTree = "<group>"; };
+		5AF9F43124FCECB3009CA4A9 /* libkey_parser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkey_parser.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libkey_parser.a"; sourceTree = "<group>"; };
+		5AF9F43224FCECB3009CA4A9 /* libusage_stats.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusage_stats.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libusage_stats.a"; sourceTree = "<group>"; };
+		5AF9F43324FCECB3009CA4A9 /* libsession_usage_observer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_usage_observer.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsession_usage_observer.a"; sourceTree = "<group>"; };
+		5AF9F43424FCECB3009CA4A9 /* liblattice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblattice.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liblattice.a"; sourceTree = "<group>"; };
+		5AF9F43524FCECB3009CA4A9 /* libsession_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsession_protocol.a"; sourceTree = "<group>"; };
+		5AF9F43624FCECB3009CA4A9 /* libgeneric_storage_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgeneric_storage_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libgeneric_storage_manager.a"; sourceTree = "<group>"; };
+		5AF9F43724FCECB3009CA4A9 /* liblouds_trie_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblouds_trie_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liblouds_trie_builder.a"; sourceTree = "<group>"; };
+		5AF9F43824FCECB3009CA4A9 /* librequest_test_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librequest_test_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/librequest_test_util.a"; sourceTree = "<group>"; };
+		5AF9F43924FCECB3009CA4A9 /* libkeymap_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkeymap_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libkeymap_factory.a"; sourceTree = "<group>"; };
+		5AF9F43A24FCECB3009CA4A9 /* libdictionary_test_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_test_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_test_util.a"; sourceTree = "<group>"; };
+		5AF9F43B24FCECB3009CA4A9 /* libsimple_succinct_bit_vector_index.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsimple_succinct_bit_vector_index.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsimple_succinct_bit_vector_index.a"; sourceTree = "<group>"; };
+		5AF9F43C24FCECB3009CA4A9 /* libsystem_dictionary_codec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_dictionary_codec.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsystem_dictionary_codec.a"; sourceTree = "<group>"; };
+		5AF9F43D24FCECB3009CA4A9 /* libuser_pos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuser_pos.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libuser_pos.a"; sourceTree = "<group>"; };
+		5AF9F43E24FCECB3009CA4A9 /* libconverter_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconverter_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconverter_util.a"; sourceTree = "<group>"; };
+		5AF9F43F24FCECB3009CA4A9 /* libimmutable_converter_interface.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimmutable_converter_interface.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libimmutable_converter_interface.a"; sourceTree = "<group>"; };
+		5AF9F44024FCECB3009CA4A9 /* libcrash_report_handler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrash_report_handler.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcrash_report_handler.a"; sourceTree = "<group>"; };
+		5AF9F44124FCECB3009CA4A9 /* libbit_vector_based_array.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbit_vector_based_array.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libbit_vector_based_array.a"; sourceTree = "<group>"; };
+		5AF9F44224FCECB3009CA4A9 /* libkeymap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkeymap.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libkeymap.a"; sourceTree = "<group>"; };
+		5AF9F44324FCECB3009CA4A9 /* libcomposer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcomposer.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcomposer.a"; sourceTree = "<group>"; };
+		5AF9F44424FCECB3009CA4A9 /* libconfig_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconfig_protocol.a"; sourceTree = "<group>"; };
+		5AF9F44524FCECB3009CA4A9 /* libdictionary_file_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_file_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_file_builder.a"; sourceTree = "<group>"; };
+		5AF9F44624FCECB3009CA4A9 /* libpos_id_printer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpos_id_printer.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libpos_id_printer.a"; sourceTree = "<group>"; };
+		5AF9F44724FCECB3009CA4A9 /* liblouds_trie.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblouds_trie.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liblouds_trie.a"; sourceTree = "<group>"; };
+		5AF9F44824FCECB3009CA4A9 /* libsegments.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsegments.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsegments.a"; sourceTree = "<group>"; };
+		5AF9F44924FCECB3009CA4A9 /* libcalculator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcalculator.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcalculator.a"; sourceTree = "<group>"; };
+		5AF9F44A24FCECB3009CA4A9 /* libdictionary_mock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_mock.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_mock.a"; sourceTree = "<group>"; };
+		5AF9F44B24FCECB4009CA4A9 /* libsession_handler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_handler.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsession_handler.a"; sourceTree = "<group>"; };
+		5AF9F44C24FCECB4009CA4A9 /* libmultifile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmultifile.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libmultifile.a"; sourceTree = "<group>"; };
+		5AF9F44D24FCECB4009CA4A9 /* libconfig_file_stream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_file_stream.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconfig_file_stream.a"; sourceTree = "<group>"; };
+		5AF9F44E24FCECB4009CA4A9 /* libobfuscator_support.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libobfuscator_support.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libobfuscator_support.a"; sourceTree = "<group>"; };
+		5AF9F44F24FCECB4009CA4A9 /* libconverter_mock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconverter_mock.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconverter_mock.a"; sourceTree = "<group>"; };
+		5AF9F45024FCECB4009CA4A9 /* libprediction_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprediction_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libprediction_protocol.a"; sourceTree = "<group>"; };
+		5AF9F45124FCECB4009CA4A9 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libprotobuf.a"; sourceTree = "<group>"; };
+		5AF9F45224FCECB4009CA4A9 /* liboutput_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboutput_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liboutput_util.a"; sourceTree = "<group>"; };
+		5AF9F45324FCECB4009CA4A9 /* libsession_server.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_server.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsession_server.a"; sourceTree = "<group>"; };
+		5AF9F45424FCECB4009CA4A9 /* libsession_usage_stats_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_usage_stats_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsession_usage_stats_util.a"; sourceTree = "<group>"; };
+		5AF9F45524FCECB4009CA4A9 /* libstorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstorage.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libstorage.a"; sourceTree = "<group>"; };
+		5AF9F45624FCECB4009CA4A9 /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libbase.a"; sourceTree = "<group>"; };
+		5AF9F45724FCECB4009CA4A9 /* libsystem_dictionary_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_dictionary_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsystem_dictionary_builder.a"; sourceTree = "<group>"; };
+		5AF9F45824FCECB4009CA4A9 /* libencryptor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libencryptor.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libencryptor.a"; sourceTree = "<group>"; };
+		5AF9F45924FCECB4009CA4A9 /* libconnection_file_reader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconnection_file_reader.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconnection_file_reader.a"; sourceTree = "<group>"; };
+		5AF9F45A24FCECB4009CA4A9 /* libmock_data_engine_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmock_data_engine_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libmock_data_engine_factory.a"; sourceTree = "<group>"; };
+		5AF9F45B24FCECB4009CA4A9 /* liboss_data_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_data_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liboss_data_manager.a"; sourceTree = "<group>"; };
+		5AF9F4B324FCECDD009CA4A9 /* libuser_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuser_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libuser_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F4B424FCECDD009CA4A9 /* libsuffix_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuffix_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsuffix_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F4B524FCECDD009CA4A9 /* libgen_existence_data.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgen_existence_data.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libgen_existence_data.a"; sourceTree = "<group>"; };
+		5AF9F4B624FCECDD009CA4A9 /* libmultifile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmultifile.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libmultifile.a"; sourceTree = "<group>"; };
+		5AF9F4B724FCECDD009CA4A9 /* liblouds_trie.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblouds_trie.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/liblouds_trie.a"; sourceTree = "<group>"; };
+		5AF9F4B824FCECDD009CA4A9 /* libusage_stats_uploader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusage_stats_uploader.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libusage_stats_uploader.a"; sourceTree = "<group>"; };
+		5AF9F4B924FCECDD009CA4A9 /* libencryptor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libencryptor.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libencryptor.a"; sourceTree = "<group>"; };
+		5AF9F4BA24FCECDD009CA4A9 /* libbit_vector_based_array_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbit_vector_based_array_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libbit_vector_based_array_builder.a"; sourceTree = "<group>"; };
+		5AF9F4BB24FCECDD009CA4A9 /* libengine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libengine.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libengine.a"; sourceTree = "<group>"; };
+		5AF9F4BC24FCECDD009CA4A9 /* libvalue_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvalue_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libvalue_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F4BD24FCECDD009CA4A9 /* libbit_vector_based_array.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbit_vector_based_array.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libbit_vector_based_array.a"; sourceTree = "<group>"; };
+		5AF9F4BE24FCECDD009CA4A9 /* libdictionary_test_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_test_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libdictionary_test_util.a"; sourceTree = "<group>"; };
+		5AF9F4BF24FCECDD009CA4A9 /* libstats_config_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstats_config_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libstats_config_util.a"; sourceTree = "<group>"; };
+		5AF9F4C024FCECDE009CA4A9 /* libsuppression_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuppression_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsuppression_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F4C124FCECDE009CA4A9 /* libsystem_dictionary_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_dictionary_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsystem_dictionary_builder.a"; sourceTree = "<group>"; };
+		5AF9F4C224FCECDE009CA4A9 /* liblattice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblattice.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/liblattice.a"; sourceTree = "<group>"; };
+		5AF9F4C324FCECDE009CA4A9 /* libgen_segmenter_bitarray.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgen_segmenter_bitarray.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libgen_segmenter_bitarray.a"; sourceTree = "<group>"; };
+		5AF9F4C424FCECDE009CA4A9 /* libimmutable_converter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimmutable_converter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libimmutable_converter.a"; sourceTree = "<group>"; };
+		5AF9F4C524FCECDE009CA4A9 /* libconnector_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconnector_base.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconnector_base.a"; sourceTree = "<group>"; };
+		5AF9F4C624FCECDE009CA4A9 /* liblouds_trie_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblouds_trie_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/liblouds_trie_builder.a"; sourceTree = "<group>"; };
+		5AF9F4C724FCECDE009CA4A9 /* libcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcodec.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libcodec.a"; sourceTree = "<group>"; };
+		5AF9F4C824FCECDE009CA4A9 /* libime_switch_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libime_switch_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libime_switch_util.a"; sourceTree = "<group>"; };
+		5AF9F4C924FCECDE009CA4A9 /* libprediction_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprediction_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libprediction_protocol.a"; sourceTree = "<group>"; };
+		5AF9F4CA24FCECDE009CA4A9 /* libconnection_file_reader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconnection_file_reader.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconnection_file_reader.a"; sourceTree = "<group>"; };
+		5AF9F4CB24FCECDE009CA4A9 /* libsession_handler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_handler.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsession_handler.a"; sourceTree = "<group>"; };
+		5AF9F4CC24FCECDE009CA4A9 /* libsession.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsession.a"; sourceTree = "<group>"; };
+		5AF9F4CD24FCECDE009CA4A9 /* libuser_pos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuser_pos.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libuser_pos.a"; sourceTree = "<group>"; };
+		5AF9F4CE24FCECDE009CA4A9 /* liboss_user_pos_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_user_pos_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/liboss_user_pos_manager.a"; sourceTree = "<group>"; };
+		5AF9F4CF24FCECDE009CA4A9 /* libkeymap_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkeymap_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libkeymap_factory.a"; sourceTree = "<group>"; };
+		5AF9F4D024FCECDE009CA4A9 /* libdictionary_file_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_file_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libdictionary_file_builder.a"; sourceTree = "<group>"; };
+		5AF9F4D124FCECDE009CA4A9 /* libbit_stream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbit_stream.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libbit_stream.a"; sourceTree = "<group>"; };
+		5AF9F4D224FCECDE009CA4A9 /* libsimple_succinct_bit_vector_index.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsimple_succinct_bit_vector_index.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsimple_succinct_bit_vector_index.a"; sourceTree = "<group>"; };
+		5AF9F4D324FCECDE009CA4A9 /* libcharacter_form_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcharacter_form_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libcharacter_form_manager.a"; sourceTree = "<group>"; };
+		5AF9F4D424FCECDE009CA4A9 /* libdictionary_impl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_impl.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libdictionary_impl.a"; sourceTree = "<group>"; };
+		5AF9F4D524FCECDE009CA4A9 /* libstorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstorage.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libstorage.a"; sourceTree = "<group>"; };
+		5AF9F4D624FCECDE009CA4A9 /* libsession_usage_stats_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_usage_stats_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsession_usage_stats_util.a"; sourceTree = "<group>"; };
+		5AF9F4D724FCECDE009CA4A9 /* libusage_stats_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusage_stats_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libusage_stats_protocol.a"; sourceTree = "<group>"; };
+		5AF9F4D824FCECDE009CA4A9 /* libcomposer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcomposer.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libcomposer.a"; sourceTree = "<group>"; };
+		5AF9F4D924FCECDE009CA4A9 /* libsegmenter_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsegmenter_base.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsegmenter_base.a"; sourceTree = "<group>"; };
+		5AF9F4DA24FCECDE009CA4A9 /* libsession_internal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_internal.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsession_internal.a"; sourceTree = "<group>"; };
+		5AF9F4DB24FCECDE009CA4A9 /* libmock_data_engine_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmock_data_engine_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libmock_data_engine_factory.a"; sourceTree = "<group>"; };
+		5AF9F4DC24FCECDE009CA4A9 /* libconverter_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconverter_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconverter_util.a"; sourceTree = "<group>"; };
+		5AF9F4DD24FCECDE009CA4A9 /* liboutput_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboutput_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/liboutput_util.a"; sourceTree = "<group>"; };
+		5AF9F4DE24FCECDE009CA4A9 /* libbase_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase_core.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libbase_core.a"; sourceTree = "<group>"; };
+		5AF9F4DF24FCECDE009CA4A9 /* libimmutable_converter_interface.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimmutable_converter_interface.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libimmutable_converter_interface.a"; sourceTree = "<group>"; };
+		5AF9F4E024FCECDE009CA4A9 /* libdictionary_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libdictionary_protocol.a"; sourceTree = "<group>"; };
+		5AF9F4E124FCECDE009CA4A9 /* librewriter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librewriter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/librewriter.a"; sourceTree = "<group>"; };
+		5AF9F4E224FCECDE009CA4A9 /* libconfig_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconfig_protocol.a"; sourceTree = "<group>"; };
+		5AF9F4E324FCECDE009CA4A9 /* librequest_test_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librequest_test_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/librequest_test_util.a"; sourceTree = "<group>"; };
+		5AF9F4E424FCECDE009CA4A9 /* libsession_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsession_protocol.a"; sourceTree = "<group>"; };
+		5AF9F4E524FCECDE009CA4A9 /* libsession_server.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_server.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsession_server.a"; sourceTree = "<group>"; };
+		5AF9F4E624FCECDE009CA4A9 /* libsession_usage_observer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_usage_observer.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsession_usage_observer.a"; sourceTree = "<group>"; };
+		5AF9F4E724FCECDE009CA4A9 /* libmock_converter_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmock_converter_engine.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libmock_converter_engine.a"; sourceTree = "<group>"; };
+		5AF9F4E824FCECDE009CA4A9 /* liboss_data_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_data_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/liboss_data_manager.a"; sourceTree = "<group>"; };
+		5AF9F4E924FCECDE009CA4A9 /* libcalculator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcalculator.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libcalculator.a"; sourceTree = "<group>"; };
+		5AF9F4EA24FCECDE009CA4A9 /* libsegments.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsegments.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsegments.a"; sourceTree = "<group>"; };
+		5AF9F4EB24FCECDE009CA4A9 /* libkey_info_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkey_info_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libkey_info_util.a"; sourceTree = "<group>"; };
+		5AF9F4EC24FCECDE009CA4A9 /* libmock_user_pos_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmock_user_pos_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libmock_user_pos_manager.a"; sourceTree = "<group>"; };
+		5AF9F4ED24FCECDE009CA4A9 /* libsparse_connector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsparse_connector.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsparse_connector.a"; sourceTree = "<group>"; };
+		5AF9F4EE24FCECDE009CA4A9 /* libsuggestion_filter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuggestion_filter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsuggestion_filter.a"; sourceTree = "<group>"; };
+		5AF9F4EF24FCECDE009CA4A9 /* libtext_dictionary_loader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtext_dictionary_loader.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libtext_dictionary_loader.a"; sourceTree = "<group>"; };
+		5AF9F4F024FCECDE009CA4A9 /* libdictionary_file.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_file.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libdictionary_file.a"; sourceTree = "<group>"; };
+		5AF9F4F124FCECDE009CA4A9 /* libconfig_handler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_handler.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconfig_handler.a"; sourceTree = "<group>"; };
+		5AF9F4F224FCECDE009CA4A9 /* libprediction.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprediction.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libprediction.a"; sourceTree = "<group>"; };
+		5AF9F4F324FCECDE009CA4A9 /* libconverter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconverter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconverter.a"; sourceTree = "<group>"; };
+		5AF9F4F424FCECDE009CA4A9 /* libdictionary_mock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_mock.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libdictionary_mock.a"; sourceTree = "<group>"; };
+		5AF9F4F524FCECDE009CA4A9 /* libkey_parser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkey_parser.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libkey_parser.a"; sourceTree = "<group>"; };
+		5AF9F4F624FCECDE009CA4A9 /* libcached_connector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcached_connector.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libcached_connector.a"; sourceTree = "<group>"; };
+		5AF9F4F724FCECDE009CA4A9 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libprotobuf.a"; sourceTree = "<group>"; };
+		5AF9F4F824FCECDE009CA4A9 /* libusage_stats.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusage_stats.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libusage_stats.a"; sourceTree = "<group>"; };
+		5AF9F4F924FCECDF009CA4A9 /* librandom_keyevents_generator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librandom_keyevents_generator.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/librandom_keyevents_generator.a"; sourceTree = "<group>"; };
+		5AF9F4FA24FCECDF009CA4A9 /* libpacked_engine_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpacked_engine_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libpacked_engine_factory.a"; sourceTree = "<group>"; };
+		5AF9F4FB24FCECDF009CA4A9 /* libconversion_request.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconversion_request.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconversion_request.a"; sourceTree = "<group>"; };
+		5AF9F4FC24FCECDF009CA4A9 /* libsystem_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsystem_dictionary.a"; sourceTree = "<group>"; };
+		5AF9F4FD24FCECDF009CA4A9 /* libsystem_dictionary_codec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_dictionary_codec.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libsystem_dictionary_codec.a"; sourceTree = "<group>"; };
+		5AF9F4FE24FCECDF009CA4A9 /* liboss_engine_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_engine_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/liboss_engine_factory.a"; sourceTree = "<group>"; };
+		5AF9F4FF24FCECDF009CA4A9 /* libcrash_report_handler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrash_report_handler.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libcrash_report_handler.a"; sourceTree = "<group>"; };
+		5AF9F50024FCECDF009CA4A9 /* libconfig_file_stream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_file_stream.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconfig_file_stream.a"; sourceTree = "<group>"; };
+		5AF9F50124FCECDF009CA4A9 /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libbase.a"; sourceTree = "<group>"; };
+		5AF9F50224FCECDF009CA4A9 /* libobfuscator_support.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libobfuscator_support.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libobfuscator_support.a"; sourceTree = "<group>"; };
+		5AF9F50324FCECDF009CA4A9 /* libconverter_mock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconverter_mock.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libconverter_mock.a"; sourceTree = "<group>"; };
+		5AF9F50424FCECDF009CA4A9 /* libtransliteration.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtransliteration.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libtransliteration.a"; sourceTree = "<group>"; };
+		5AF9F50524FCECDF009CA4A9 /* libkeymap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkeymap.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libkeymap.a"; sourceTree = "<group>"; };
+		5AF9F50624FCECDF009CA4A9 /* libcalculator_mock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcalculator_mock.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libcalculator_mock.a"; sourceTree = "<group>"; };
+		5AF9F50724FCECDF009CA4A9 /* libgeneric_storage_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgeneric_storage_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libgeneric_storage_manager.a"; sourceTree = "<group>"; };
+		5AF9F50824FCECDF009CA4A9 /* libkey_event_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkey_event_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libkey_event_util.a"; sourceTree = "<group>"; };
+		5AF9F50924FCECDF009CA4A9 /* libpos_id_printer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpos_id_printer.a; path = "Mozc-for-iOS/src/out_ios/Release-iphonesimulator/libpos_id_printer.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF9F3A424FCE1BF009CA4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9F3BF24FCE2F9009CA4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9F45F24FCECC8009CA4A9 /* libbit_vector_based_array_builder.a in Frameworks */,
+				5AF9F49824FCECCB009CA4A9 /* libsegmenter_base.a in Frameworks */,
+				5AF9F48B24FCECCA009CA4A9 /* libobfuscator_support.a in Frameworks */,
+				5AF9F47A24FCECC9009CA4A9 /* libgen_segmenter_bitarray.a in Frameworks */,
+				5AF9F49524FCECCB009CA4A9 /* librandom_keyevents_generator.a in Frameworks */,
+				5AF9F4A024FCECCC009CA4A9 /* libsession.a in Frameworks */,
+				5AF9F4A624FCECCD009CA4A9 /* libsuggestion_filter.a in Frameworks */,
+				5AF9F4B124FCECCF009CA4A9 /* libuser_pos.a in Frameworks */,
+				5AF9F47324FCECC8009CA4A9 /* libdictionary_impl.a in Frameworks */,
+				5AF9F47724FCECC8009CA4A9 /* libencryptor.a in Frameworks */,
+				5AF9F45D24FCECC8009CA4A9 /* libbase.a in Frameworks */,
+				5AF9F48424FCECC9009CA4A9 /* liblattice.a in Frameworks */,
+				5AF9F4A924FCECCD009CA4A9 /* libsystem_dictionary_codec.a in Frameworks */,
+				5AF9F49224FCECCB009CA4A9 /* libprediction_protocol.a in Frameworks */,
+				5AF9F46024FCECC8009CA4A9 /* libbit_vector_based_array.a in Frameworks */,
+				5AF9F4B024FCECCF009CA4A9 /* libuser_dictionary.a in Frameworks */,
+				5AF9F48F24FCECCA009CA4A9 /* liboutput_util.a in Frameworks */,
+				5AF9F48024FCECC9009CA4A9 /* libkey_info_util.a in Frameworks */,
+				5AF9F4B224FCECCF009CA4A9 /* libvalue_dictionary.a in Frameworks */,
+				5AF9F47424FCECC8009CA4A9 /* libdictionary_mock.a in Frameworks */,
+				5AF9F4AB24FCECCE009CA4A9 /* libtext_dictionary_loader.a in Frameworks */,
+				5AF9F49024FCECCA009CA4A9 /* libpacked_engine_factory.a in Frameworks */,
+				5AF9F49424FCECCB009CA4A9 /* libprotobuf.a in Frameworks */,
+				5AF9F48C24FCECCA009CA4A9 /* liboss_data_manager.a in Frameworks */,
+				5AF9F47D24FCECC9009CA4A9 /* libimmutable_converter_interface.a in Frameworks */,
+				5AF9F49F24FCECCC009CA4A9 /* libsession_usage_stats_util.a in Frameworks */,
+				5AF9F48224FCECC9009CA4A9 /* libkeymap_factory.a in Frameworks */,
+				5AF9F47124FCECC8009CA4A9 /* libdictionary_file_builder.a in Frameworks */,
+				5AF9F4AC24FCECCE009CA4A9 /* libtransliteration.a in Frameworks */,
+				5AF9F46124FCECC8009CA4A9 /* libcached_connector.a in Frameworks */,
+				5AF9F49924FCECCB009CA4A9 /* libsegments.a in Frameworks */,
+				5AF9F4A724FCECCD009CA4A9 /* libsuppression_dictionary.a in Frameworks */,
+				5AF9F4AD24FCECCE009CA4A9 /* libusage_stats_protocol.a in Frameworks */,
+				5AF9F46824FCECC8009CA4A9 /* libconfig_handler.a in Frameworks */,
+				5AF9F48E24FCECCA009CA4A9 /* liboss_user_pos_manager.a in Frameworks */,
+				5AF9F4AA24FCECCE009CA4A9 /* libsystem_dictionary.a in Frameworks */,
+				5AF9F48D24FCECCA009CA4A9 /* liboss_engine_factory.a in Frameworks */,
+				5AF9F46424FCECC8009CA4A9 /* libcharacter_form_manager.a in Frameworks */,
+				5AF9F45C24FCECC8009CA4A9 /* libbase_core.a in Frameworks */,
+				5AF9F49B24FCECCC009CA4A9 /* libsession_internal.a in Frameworks */,
+				5AF9F49C24FCECCC009CA4A9 /* libsession_protocol.a in Frameworks */,
+				5AF9F46524FCECC8009CA4A9 /* libcodec.a in Frameworks */,
+				5AF9F4A224FCECCC009CA4A9 /* libsparse_connector.a in Frameworks */,
+				5AF9F47B24FCECC9009CA4A9 /* libgeneric_storage_manager.a in Frameworks */,
+				5AF9F46F24FCECC8009CA4A9 /* libconverter.a in Frameworks */,
+				5AF9F46A24FCECC8009CA4A9 /* libconnection_file_reader.a in Frameworks */,
+				5AF9F46E24FCECC8009CA4A9 /* libconverter_util.a in Frameworks */,
+				5AF9F49624FCECCB009CA4A9 /* librequest_test_util.a in Frameworks */,
+				5AF9F47C24FCECC9009CA4A9 /* libime_switch_util.a in Frameworks */,
+				5AF9F47624FCECC8009CA4A9 /* libdictionary_test_util.a in Frameworks */,
+				5AF9F49A24FCECCB009CA4A9 /* libsession_handler.a in Frameworks */,
+				5AF9F48524FCECC9009CA4A9 /* liblouds_trie_builder.a in Frameworks */,
+				5AF9F4AF24FCECCE009CA4A9 /* libusage_stats.a in Frameworks */,
+				5AF9F48624FCECC9009CA4A9 /* liblouds_trie.a in Frameworks */,
+				5AF9F46224FCECC8009CA4A9 /* libcalculator_mock.a in Frameworks */,
+				5AF9F4A524FCECCD009CA4A9 /* libsuffix_dictionary.a in Frameworks */,
+				5AF9F49124FCECCA009CA4A9 /* libpos_id_printer.a in Frameworks */,
+				5AF9F4A324FCECCD009CA4A9 /* libstats_config_util.a in Frameworks */,
+				5AF9F48124FCECC9009CA4A9 /* libkey_parser.a in Frameworks */,
+				5AF9F48324FCECC9009CA4A9 /* libkeymap.a in Frameworks */,
+				5AF9F49724FCECCB009CA4A9 /* librewriter.a in Frameworks */,
+				5AF9F47224FCECC8009CA4A9 /* libdictionary_file.a in Frameworks */,
+				5AF9F45E24FCECC8009CA4A9 /* libbit_stream.a in Frameworks */,
+				5AF9F4A124FCECCC009CA4A9 /* libsimple_succinct_bit_vector_index.a in Frameworks */,
+				5AF9F49D24FCECCC009CA4A9 /* libsession_server.a in Frameworks */,
+				5AF9F47E24FCECC9009CA4A9 /* libimmutable_converter.a in Frameworks */,
+				5AF9F48A24FCECCA009CA4A9 /* libmultifile.a in Frameworks */,
+				5AF9F48924FCECCA009CA4A9 /* libmock_user_pos_manager.a in Frameworks */,
+				5AF9F47F24FCECC9009CA4A9 /* libkey_event_util.a in Frameworks */,
+				5AF9F47524FCECC8009CA4A9 /* libdictionary_protocol.a in Frameworks */,
+				5AF9F46C24FCECC8009CA4A9 /* libconversion_request.a in Frameworks */,
+				5AF9F49E24FCECCC009CA4A9 /* libsession_usage_observer.a in Frameworks */,
+				5AF9F46724FCECC8009CA4A9 /* libconfig_file_stream.a in Frameworks */,
+				5AF9F47024FCECC8009CA4A9 /* libcrash_report_handler.a in Frameworks */,
+				5AF9F46324FCECC8009CA4A9 /* libcalculator.a in Frameworks */,
+				5AF9F46D24FCECC8009CA4A9 /* libconverter_mock.a in Frameworks */,
+				5AF9F4A424FCECCD009CA4A9 /* libstorage.a in Frameworks */,
+				5AF9F46624FCECC8009CA4A9 /* libcomposer.a in Frameworks */,
+				5AF9F47824FCECC8009CA4A9 /* libengine.a in Frameworks */,
+				5AF9F4AE24FCECCE009CA4A9 /* libusage_stats_uploader.a in Frameworks */,
+				5AF9F46B24FCECC8009CA4A9 /* libconnector_base.a in Frameworks */,
+				5AF9F4A824FCECCD009CA4A9 /* libsystem_dictionary_builder.a in Frameworks */,
+				5AF9F46924FCECC8009CA4A9 /* libconfig_protocol.a in Frameworks */,
+				5AF9F48724FCECC9009CA4A9 /* libmock_converter_engine.a in Frameworks */,
+				5AF9F47924FCECC8009CA4A9 /* libgen_existence_data.a in Frameworks */,
+				5AF9F49324FCECCB009CA4A9 /* libprediction.a in Frameworks */,
+				5AF9F48824FCECCA009CA4A9 /* libmock_data_engine_factory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9F3FB24FCEC88009CA4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9F50D24FCECE7009CA4A9 /* libbit_vector_based_array_builder.a in Frameworks */,
+				5AF9F54624FCECEA009CA4A9 /* libsegmenter_base.a in Frameworks */,
+				5AF9F53924FCECE9009CA4A9 /* libobfuscator_support.a in Frameworks */,
+				5AF9F52824FCECE8009CA4A9 /* libgen_segmenter_bitarray.a in Frameworks */,
+				5AF9F54324FCECEA009CA4A9 /* librandom_keyevents_generator.a in Frameworks */,
+				5AF9F54E24FCECEB009CA4A9 /* libsession.a in Frameworks */,
+				5AF9F55424FCECEC009CA4A9 /* libsuggestion_filter.a in Frameworks */,
+				5AF9F55F24FCECEE009CA4A9 /* libuser_pos.a in Frameworks */,
+				5AF9F52124FCECE7009CA4A9 /* libdictionary_impl.a in Frameworks */,
+				5AF9F52524FCECE7009CA4A9 /* libencryptor.a in Frameworks */,
+				5AF9F50B24FCECE7009CA4A9 /* libbase.a in Frameworks */,
+				5AF9F53224FCECE8009CA4A9 /* liblattice.a in Frameworks */,
+				5AF9F55724FCECED009CA4A9 /* libsystem_dictionary_codec.a in Frameworks */,
+				5AF9F54024FCECEA009CA4A9 /* libprediction_protocol.a in Frameworks */,
+				5AF9F50E24FCECE7009CA4A9 /* libbit_vector_based_array.a in Frameworks */,
+				5AF9F55E24FCECEE009CA4A9 /* libuser_dictionary.a in Frameworks */,
+				5AF9F53D24FCECE9009CA4A9 /* liboutput_util.a in Frameworks */,
+				5AF9F52E24FCECE8009CA4A9 /* libkey_info_util.a in Frameworks */,
+				5AF9F56024FCECEE009CA4A9 /* libvalue_dictionary.a in Frameworks */,
+				5AF9F52224FCECE7009CA4A9 /* libdictionary_mock.a in Frameworks */,
+				5AF9F55924FCECED009CA4A9 /* libtext_dictionary_loader.a in Frameworks */,
+				5AF9F53E24FCECE9009CA4A9 /* libpacked_engine_factory.a in Frameworks */,
+				5AF9F54224FCECEA009CA4A9 /* libprotobuf.a in Frameworks */,
+				5AF9F53A24FCECE9009CA4A9 /* liboss_data_manager.a in Frameworks */,
+				5AF9F52B24FCECE8009CA4A9 /* libimmutable_converter_interface.a in Frameworks */,
+				5AF9F54D24FCECEB009CA4A9 /* libsession_usage_stats_util.a in Frameworks */,
+				5AF9F53024FCECE8009CA4A9 /* libkeymap_factory.a in Frameworks */,
+				5AF9F51F24FCECE7009CA4A9 /* libdictionary_file_builder.a in Frameworks */,
+				5AF9F55A24FCECED009CA4A9 /* libtransliteration.a in Frameworks */,
+				5AF9F50F24FCECE7009CA4A9 /* libcached_connector.a in Frameworks */,
+				5AF9F54724FCECEA009CA4A9 /* libsegments.a in Frameworks */,
+				5AF9F55524FCECEC009CA4A9 /* libsuppression_dictionary.a in Frameworks */,
+				5AF9F55B24FCECED009CA4A9 /* libusage_stats_protocol.a in Frameworks */,
+				5AF9F51624FCECE7009CA4A9 /* libconfig_handler.a in Frameworks */,
+				5AF9F53C24FCECE9009CA4A9 /* liboss_user_pos_manager.a in Frameworks */,
+				5AF9F55824FCECED009CA4A9 /* libsystem_dictionary.a in Frameworks */,
+				5AF9F53B24FCECE9009CA4A9 /* liboss_engine_factory.a in Frameworks */,
+				5AF9F51224FCECE7009CA4A9 /* libcharacter_form_manager.a in Frameworks */,
+				5AF9F50A24FCECE7009CA4A9 /* libbase_core.a in Frameworks */,
+				5AF9F54924FCECEB009CA4A9 /* libsession_internal.a in Frameworks */,
+				5AF9F54A24FCECEB009CA4A9 /* libsession_protocol.a in Frameworks */,
+				5AF9F51324FCECE7009CA4A9 /* libcodec.a in Frameworks */,
+				5AF9F55024FCECEC009CA4A9 /* libsparse_connector.a in Frameworks */,
+				5AF9F52924FCECE8009CA4A9 /* libgeneric_storage_manager.a in Frameworks */,
+				5AF9F51D24FCECE7009CA4A9 /* libconverter.a in Frameworks */,
+				5AF9F51824FCECE7009CA4A9 /* libconnection_file_reader.a in Frameworks */,
+				5AF9F51C24FCECE7009CA4A9 /* libconverter_util.a in Frameworks */,
+				5AF9F54424FCECEA009CA4A9 /* librequest_test_util.a in Frameworks */,
+				5AF9F52A24FCECE8009CA4A9 /* libime_switch_util.a in Frameworks */,
+				5AF9F52424FCECE7009CA4A9 /* libdictionary_test_util.a in Frameworks */,
+				5AF9F54824FCECEB009CA4A9 /* libsession_handler.a in Frameworks */,
+				5AF9F53324FCECE8009CA4A9 /* liblouds_trie_builder.a in Frameworks */,
+				5AF9F55D24FCECEE009CA4A9 /* libusage_stats.a in Frameworks */,
+				5AF9F53424FCECE9009CA4A9 /* liblouds_trie.a in Frameworks */,
+				5AF9F51024FCECE7009CA4A9 /* libcalculator_mock.a in Frameworks */,
+				5AF9F55324FCECEC009CA4A9 /* libsuffix_dictionary.a in Frameworks */,
+				5AF9F53F24FCECEA009CA4A9 /* libpos_id_printer.a in Frameworks */,
+				5AF9F55124FCECEC009CA4A9 /* libstats_config_util.a in Frameworks */,
+				5AF9F52F24FCECE8009CA4A9 /* libkey_parser.a in Frameworks */,
+				5AF9F53124FCECE8009CA4A9 /* libkeymap.a in Frameworks */,
+				5AF9F54524FCECEA009CA4A9 /* librewriter.a in Frameworks */,
+				5AF9F52024FCECE7009CA4A9 /* libdictionary_file.a in Frameworks */,
+				5AF9F50C24FCECE7009CA4A9 /* libbit_stream.a in Frameworks */,
+				5AF9F54F24FCECEB009CA4A9 /* libsimple_succinct_bit_vector_index.a in Frameworks */,
+				5AF9F54B24FCECEB009CA4A9 /* libsession_server.a in Frameworks */,
+				5AF9F52C24FCECE8009CA4A9 /* libimmutable_converter.a in Frameworks */,
+				5AF9F53824FCECE9009CA4A9 /* libmultifile.a in Frameworks */,
+				5AF9F53724FCECE9009CA4A9 /* libmock_user_pos_manager.a in Frameworks */,
+				5AF9F52D24FCECE8009CA4A9 /* libkey_event_util.a in Frameworks */,
+				5AF9F52324FCECE7009CA4A9 /* libdictionary_protocol.a in Frameworks */,
+				5AF9F51A24FCECE7009CA4A9 /* libconversion_request.a in Frameworks */,
+				5AF9F54C24FCECEB009CA4A9 /* libsession_usage_observer.a in Frameworks */,
+				5AF9F51524FCECE7009CA4A9 /* libconfig_file_stream.a in Frameworks */,
+				5AF9F51E24FCECE7009CA4A9 /* libcrash_report_handler.a in Frameworks */,
+				5AF9F51124FCECE7009CA4A9 /* libcalculator.a in Frameworks */,
+				5AF9F51B24FCECE7009CA4A9 /* libconverter_mock.a in Frameworks */,
+				5AF9F55224FCECEC009CA4A9 /* libstorage.a in Frameworks */,
+				5AF9F51424FCECE7009CA4A9 /* libcomposer.a in Frameworks */,
+				5AF9F52624FCECE8009CA4A9 /* libengine.a in Frameworks */,
+				5AF9F55C24FCECED009CA4A9 /* libusage_stats_uploader.a in Frameworks */,
+				5AF9F51924FCECE7009CA4A9 /* libconnector_base.a in Frameworks */,
+				5AF9F55624FCECEC009CA4A9 /* libsystem_dictionary_builder.a in Frameworks */,
+				5AF9F51724FCECE7009CA4A9 /* libconfig_protocol.a in Frameworks */,
+				5AF9F53524FCECE9009CA4A9 /* libmock_converter_engine.a in Frameworks */,
+				5AF9F52724FCECE8009CA4A9 /* libgen_existence_data.a in Frameworks */,
+				5AF9F54124FCECEA009CA4A9 /* libprediction.a in Frameworks */,
+				5AF9F53624FCECE9009CA4A9 /* libmock_data_engine_factory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AF9F39E24FCE1BF009CA4A9 = {
+			isa = PBXGroup;
+			children = (
+				5AF9F3A924FCE1BF009CA4A9 /* iOS-JP10Key */,
+				5AF9F3C324FCE2F9009CA4A9 /* JP10Keyboard */,
+				5AF9F3A824FCE1BF009CA4A9 /* Products */,
+				5AF9F40424FCECB2009CA4A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AF9F3A824FCE1BF009CA4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9F3A724FCE1BF009CA4A9 /* iOS-JP10Key.app */,
+				5AF9F3C224FCE2F9009CA4A9 /* JP10Keyboard.appex */,
+				5AF9F40224FCEC88009CA4A9 /* JP10Keyboard-simulator.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF9F3A924FCE1BF009CA4A9 /* iOS-JP10Key */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9F3AA24FCE1BF009CA4A9 /* AppDelegate.swift */,
+				5AF9F3AC24FCE1BF009CA4A9 /* SceneDelegate.swift */,
+				5AF9F3AE24FCE1BF009CA4A9 /* ViewController.swift */,
+				5AF9F3B024FCE1BF009CA4A9 /* Main.storyboard */,
+				5AF9F3B324FCE1C0009CA4A9 /* Assets.xcassets */,
+				5AF9F3B524FCE1C0009CA4A9 /* LaunchScreen.storyboard */,
+				5AF9F3B824FCE1C0009CA4A9 /* Info.plist */,
+			);
+			path = "iOS-JP10Key";
+			sourceTree = "<group>";
+		};
+		5AF9F3C324FCE2F9009CA4A9 /* JP10Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9F3C424FCE2F9009CA4A9 /* KeyboardViewController.swift */,
+				5AF9F3D224FCE551009CA4A9 /* Candidate.storyboard */,
+				5AF9F3D124FCE551009CA4A9 /* CandidateCollectionViewController.swift */,
+				5AF9F3DE24FCE551009CA4A9 /* InputCandidate.h */,
+				5AF9F3D424FCE551009CA4A9 /* InputCandidate.m */,
+				5AF9F3D824FCE551009CA4A9 /* InputManager.h */,
+				5AF9F3D024FCE551009CA4A9 /* InputManager.mm */,
+				5AF9F3D324FCE551009CA4A9 /* KanaMod.swift */,
+				5AF9F3DD24FCE551009CA4A9 /* KeyboardMode.swift */,
+				5AF9F3D624FCE551009CA4A9 /* KeyboardView.swift */,
+				5AF9F3D924FCE551009CA4A9 /* KeyboardView.xib */,
+				5AF9F3DC24FCE551009CA4A9 /* KeyButton.swift */,
+				5AF9F3DB24FCE551009CA4A9 /* KeyDirection.swift */,
+				5AF9F3CF24FCE551009CA4A9 /* KeyLabels.swift */,
+				5AF9F3DA24FCE551009CA4A9 /* KeyPopupView.swift */,
+				5AF9F3D524FCE551009CA4A9 /* RawKeyManager.swift */,
+				5AF9F3C624FCE2F9009CA4A9 /* Info.plist */,
+				5AF9F3CE24FCE550009CA4A9 /* JP10Keyboard-Bridging-Header.h */,
+			);
+			path = JP10Keyboard;
+			sourceTree = "<group>";
+		};
+		5AF9F40424FCECB2009CA4A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9F4DE24FCECDE009CA4A9 /* libbase_core.a */,
+				5AF9F50124FCECDF009CA4A9 /* libbase.a */,
+				5AF9F4D124FCECDE009CA4A9 /* libbit_stream.a */,
+				5AF9F4BA24FCECDD009CA4A9 /* libbit_vector_based_array_builder.a */,
+				5AF9F4BD24FCECDD009CA4A9 /* libbit_vector_based_array.a */,
+				5AF9F4F624FCECDE009CA4A9 /* libcached_connector.a */,
+				5AF9F50624FCECDF009CA4A9 /* libcalculator_mock.a */,
+				5AF9F4E924FCECDE009CA4A9 /* libcalculator.a */,
+				5AF9F4D324FCECDE009CA4A9 /* libcharacter_form_manager.a */,
+				5AF9F4C724FCECDE009CA4A9 /* libcodec.a */,
+				5AF9F4D824FCECDE009CA4A9 /* libcomposer.a */,
+				5AF9F50024FCECDF009CA4A9 /* libconfig_file_stream.a */,
+				5AF9F4F124FCECDE009CA4A9 /* libconfig_handler.a */,
+				5AF9F4E224FCECDE009CA4A9 /* libconfig_protocol.a */,
+				5AF9F4CA24FCECDE009CA4A9 /* libconnection_file_reader.a */,
+				5AF9F4C524FCECDE009CA4A9 /* libconnector_base.a */,
+				5AF9F4FB24FCECDF009CA4A9 /* libconversion_request.a */,
+				5AF9F50324FCECDF009CA4A9 /* libconverter_mock.a */,
+				5AF9F4DC24FCECDE009CA4A9 /* libconverter_util.a */,
+				5AF9F4F324FCECDE009CA4A9 /* libconverter.a */,
+				5AF9F4FF24FCECDF009CA4A9 /* libcrash_report_handler.a */,
+				5AF9F4D024FCECDE009CA4A9 /* libdictionary_file_builder.a */,
+				5AF9F4F024FCECDE009CA4A9 /* libdictionary_file.a */,
+				5AF9F4D424FCECDE009CA4A9 /* libdictionary_impl.a */,
+				5AF9F4F424FCECDE009CA4A9 /* libdictionary_mock.a */,
+				5AF9F4E024FCECDE009CA4A9 /* libdictionary_protocol.a */,
+				5AF9F4BE24FCECDD009CA4A9 /* libdictionary_test_util.a */,
+				5AF9F4B924FCECDD009CA4A9 /* libencryptor.a */,
+				5AF9F4BB24FCECDD009CA4A9 /* libengine.a */,
+				5AF9F4B524FCECDD009CA4A9 /* libgen_existence_data.a */,
+				5AF9F4C324FCECDE009CA4A9 /* libgen_segmenter_bitarray.a */,
+				5AF9F50724FCECDF009CA4A9 /* libgeneric_storage_manager.a */,
+				5AF9F4C824FCECDE009CA4A9 /* libime_switch_util.a */,
+				5AF9F4DF24FCECDE009CA4A9 /* libimmutable_converter_interface.a */,
+				5AF9F4C424FCECDE009CA4A9 /* libimmutable_converter.a */,
+				5AF9F50824FCECDF009CA4A9 /* libkey_event_util.a */,
+				5AF9F4EB24FCECDE009CA4A9 /* libkey_info_util.a */,
+				5AF9F4F524FCECDE009CA4A9 /* libkey_parser.a */,
+				5AF9F4CF24FCECDE009CA4A9 /* libkeymap_factory.a */,
+				5AF9F50524FCECDF009CA4A9 /* libkeymap.a */,
+				5AF9F4C224FCECDE009CA4A9 /* liblattice.a */,
+				5AF9F4C624FCECDE009CA4A9 /* liblouds_trie_builder.a */,
+				5AF9F4B724FCECDD009CA4A9 /* liblouds_trie.a */,
+				5AF9F4E724FCECDE009CA4A9 /* libmock_converter_engine.a */,
+				5AF9F4DB24FCECDE009CA4A9 /* libmock_data_engine_factory.a */,
+				5AF9F4EC24FCECDE009CA4A9 /* libmock_user_pos_manager.a */,
+				5AF9F4B624FCECDD009CA4A9 /* libmultifile.a */,
+				5AF9F50224FCECDF009CA4A9 /* libobfuscator_support.a */,
+				5AF9F4E824FCECDE009CA4A9 /* liboss_data_manager.a */,
+				5AF9F4FE24FCECDF009CA4A9 /* liboss_engine_factory.a */,
+				5AF9F4CE24FCECDE009CA4A9 /* liboss_user_pos_manager.a */,
+				5AF9F4DD24FCECDE009CA4A9 /* liboutput_util.a */,
+				5AF9F4FA24FCECDF009CA4A9 /* libpacked_engine_factory.a */,
+				5AF9F50924FCECDF009CA4A9 /* libpos_id_printer.a */,
+				5AF9F4C924FCECDE009CA4A9 /* libprediction_protocol.a */,
+				5AF9F4F224FCECDE009CA4A9 /* libprediction.a */,
+				5AF9F4F724FCECDE009CA4A9 /* libprotobuf.a */,
+				5AF9F4F924FCECDF009CA4A9 /* librandom_keyevents_generator.a */,
+				5AF9F4E324FCECDE009CA4A9 /* librequest_test_util.a */,
+				5AF9F4E124FCECDE009CA4A9 /* librewriter.a */,
+				5AF9F4D924FCECDE009CA4A9 /* libsegmenter_base.a */,
+				5AF9F4EA24FCECDE009CA4A9 /* libsegments.a */,
+				5AF9F4CB24FCECDE009CA4A9 /* libsession_handler.a */,
+				5AF9F4DA24FCECDE009CA4A9 /* libsession_internal.a */,
+				5AF9F4E424FCECDE009CA4A9 /* libsession_protocol.a */,
+				5AF9F4E524FCECDE009CA4A9 /* libsession_server.a */,
+				5AF9F4E624FCECDE009CA4A9 /* libsession_usage_observer.a */,
+				5AF9F4D624FCECDE009CA4A9 /* libsession_usage_stats_util.a */,
+				5AF9F4CC24FCECDE009CA4A9 /* libsession.a */,
+				5AF9F4D224FCECDE009CA4A9 /* libsimple_succinct_bit_vector_index.a */,
+				5AF9F4ED24FCECDE009CA4A9 /* libsparse_connector.a */,
+				5AF9F4BF24FCECDD009CA4A9 /* libstats_config_util.a */,
+				5AF9F4D524FCECDE009CA4A9 /* libstorage.a */,
+				5AF9F4B424FCECDD009CA4A9 /* libsuffix_dictionary.a */,
+				5AF9F4EE24FCECDE009CA4A9 /* libsuggestion_filter.a */,
+				5AF9F4C024FCECDE009CA4A9 /* libsuppression_dictionary.a */,
+				5AF9F4C124FCECDE009CA4A9 /* libsystem_dictionary_builder.a */,
+				5AF9F4FD24FCECDF009CA4A9 /* libsystem_dictionary_codec.a */,
+				5AF9F4FC24FCECDF009CA4A9 /* libsystem_dictionary.a */,
+				5AF9F4EF24FCECDE009CA4A9 /* libtext_dictionary_loader.a */,
+				5AF9F50424FCECDF009CA4A9 /* libtransliteration.a */,
+				5AF9F4D724FCECDE009CA4A9 /* libusage_stats_protocol.a */,
+				5AF9F4B824FCECDD009CA4A9 /* libusage_stats_uploader.a */,
+				5AF9F4F824FCECDE009CA4A9 /* libusage_stats.a */,
+				5AF9F4B324FCECDD009CA4A9 /* libuser_dictionary.a */,
+				5AF9F4CD24FCECDE009CA4A9 /* libuser_pos.a */,
+				5AF9F4BC24FCECDD009CA4A9 /* libvalue_dictionary.a */,
+				5AF9F40C24FCECB3009CA4A9 /* libbase_core.a */,
+				5AF9F45624FCECB4009CA4A9 /* libbase.a */,
+				5AF9F40E24FCECB3009CA4A9 /* libbit_stream.a */,
+				5AF9F42024FCECB3009CA4A9 /* libbit_vector_based_array_builder.a */,
+				5AF9F44124FCECB3009CA4A9 /* libbit_vector_based_array.a */,
+				5AF9F42424FCECB3009CA4A9 /* libcached_connector.a */,
+				5AF9F40F24FCECB3009CA4A9 /* libcalculator_mock.a */,
+				5AF9F44924FCECB3009CA4A9 /* libcalculator.a */,
+				5AF9F41924FCECB3009CA4A9 /* libcharacter_form_manager.a */,
+				5AF9F41B24FCECB3009CA4A9 /* libcodec.a */,
+				5AF9F44324FCECB3009CA4A9 /* libcomposer.a */,
+				5AF9F44D24FCECB4009CA4A9 /* libconfig_file_stream.a */,
+				5AF9F42F24FCECB3009CA4A9 /* libconfig_handler.a */,
+				5AF9F44424FCECB3009CA4A9 /* libconfig_protocol.a */,
+				5AF9F45924FCECB4009CA4A9 /* libconnection_file_reader.a */,
+				5AF9F40924FCECB3009CA4A9 /* libconnector_base.a */,
+				5AF9F41424FCECB3009CA4A9 /* libconversion_request.a */,
+				5AF9F44F24FCECB4009CA4A9 /* libconverter_mock.a */,
+				5AF9F43E24FCECB3009CA4A9 /* libconverter_util.a */,
+				5AF9F42824FCECB3009CA4A9 /* libconverter.a */,
+				5AF9F44024FCECB3009CA4A9 /* libcrash_report_handler.a */,
+				5AF9F44524FCECB3009CA4A9 /* libdictionary_file_builder.a */,
+				5AF9F41324FCECB3009CA4A9 /* libdictionary_file.a */,
+				5AF9F42E24FCECB3009CA4A9 /* libdictionary_impl.a */,
+				5AF9F44A24FCECB3009CA4A9 /* libdictionary_mock.a */,
+				5AF9F41A24FCECB3009CA4A9 /* libdictionary_protocol.a */,
+				5AF9F43A24FCECB3009CA4A9 /* libdictionary_test_util.a */,
+				5AF9F45824FCECB4009CA4A9 /* libencryptor.a */,
+				5AF9F43024FCECB3009CA4A9 /* libengine.a */,
+				5AF9F41C24FCECB3009CA4A9 /* libgen_existence_data.a */,
+				5AF9F40524FCECB2009CA4A9 /* libgen_segmenter_bitarray.a */,
+				5AF9F43624FCECB3009CA4A9 /* libgeneric_storage_manager.a */,
+				5AF9F42324FCECB3009CA4A9 /* libime_switch_util.a */,
+				5AF9F43F24FCECB3009CA4A9 /* libimmutable_converter_interface.a */,
+				5AF9F41524FCECB3009CA4A9 /* libimmutable_converter.a */,
+				5AF9F41E24FCECB3009CA4A9 /* libkey_event_util.a */,
+				5AF9F41D24FCECB3009CA4A9 /* libkey_info_util.a */,
+				5AF9F43124FCECB3009CA4A9 /* libkey_parser.a */,
+				5AF9F43924FCECB3009CA4A9 /* libkeymap_factory.a */,
+				5AF9F44224FCECB3009CA4A9 /* libkeymap.a */,
+				5AF9F43424FCECB3009CA4A9 /* liblattice.a */,
+				5AF9F43724FCECB3009CA4A9 /* liblouds_trie_builder.a */,
+				5AF9F44724FCECB3009CA4A9 /* liblouds_trie.a */,
+				5AF9F42724FCECB3009CA4A9 /* libmock_converter_engine.a */,
+				5AF9F45A24FCECB4009CA4A9 /* libmock_data_engine_factory.a */,
+				5AF9F42C24FCECB3009CA4A9 /* libmock_user_pos_manager.a */,
+				5AF9F44C24FCECB4009CA4A9 /* libmultifile.a */,
+				5AF9F44E24FCECB4009CA4A9 /* libobfuscator_support.a */,
+				5AF9F45B24FCECB4009CA4A9 /* liboss_data_manager.a */,
+				5AF9F42124FCECB3009CA4A9 /* liboss_engine_factory.a */,
+				5AF9F41024FCECB3009CA4A9 /* liboss_user_pos_manager.a */,
+				5AF9F45224FCECB4009CA4A9 /* liboutput_util.a */,
+				5AF9F41F24FCECB3009CA4A9 /* libpacked_engine_factory.a */,
+				5AF9F44624FCECB3009CA4A9 /* libpos_id_printer.a */,
+				5AF9F45024FCECB4009CA4A9 /* libprediction_protocol.a */,
+				5AF9F42524FCECB3009CA4A9 /* libprediction.a */,
+				5AF9F45124FCECB4009CA4A9 /* libprotobuf.a */,
+				5AF9F40824FCECB3009CA4A9 /* librandom_keyevents_generator.a */,
+				5AF9F43824FCECB3009CA4A9 /* librequest_test_util.a */,
+				5AF9F42624FCECB3009CA4A9 /* librewriter.a */,
+				5AF9F40624FCECB2009CA4A9 /* libsegmenter_base.a */,
+				5AF9F44824FCECB3009CA4A9 /* libsegments.a */,
+				5AF9F44B24FCECB4009CA4A9 /* libsession_handler.a */,
+				5AF9F40724FCECB2009CA4A9 /* libsession_internal.a */,
+				5AF9F43524FCECB3009CA4A9 /* libsession_protocol.a */,
+				5AF9F45324FCECB4009CA4A9 /* libsession_server.a */,
+				5AF9F43324FCECB3009CA4A9 /* libsession_usage_observer.a */,
+				5AF9F45424FCECB4009CA4A9 /* libsession_usage_stats_util.a */,
+				5AF9F41824FCECB3009CA4A9 /* libsession.a */,
+				5AF9F43B24FCECB3009CA4A9 /* libsimple_succinct_bit_vector_index.a */,
+				5AF9F41124FCECB3009CA4A9 /* libsparse_connector.a */,
+				5AF9F40A24FCECB3009CA4A9 /* libstats_config_util.a */,
+				5AF9F45524FCECB4009CA4A9 /* libstorage.a */,
+				5AF9F41624FCECB3009CA4A9 /* libsuffix_dictionary.a */,
+				5AF9F42924FCECB3009CA4A9 /* libsuggestion_filter.a */,
+				5AF9F42A24FCECB3009CA4A9 /* libsuppression_dictionary.a */,
+				5AF9F45724FCECB4009CA4A9 /* libsystem_dictionary_builder.a */,
+				5AF9F43C24FCECB3009CA4A9 /* libsystem_dictionary_codec.a */,
+				5AF9F42224FCECB3009CA4A9 /* libsystem_dictionary.a */,
+				5AF9F40B24FCECB3009CA4A9 /* libtext_dictionary_loader.a */,
+				5AF9F41724FCECB3009CA4A9 /* libtransliteration.a */,
+				5AF9F41224FCECB3009CA4A9 /* libusage_stats_protocol.a */,
+				5AF9F40D24FCECB3009CA4A9 /* libusage_stats_uploader.a */,
+				5AF9F43224FCECB3009CA4A9 /* libusage_stats.a */,
+				5AF9F42B24FCECB3009CA4A9 /* libuser_dictionary.a */,
+				5AF9F43D24FCECB3009CA4A9 /* libuser_pos.a */,
+				5AF9F42D24FCECB3009CA4A9 /* libvalue_dictionary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF9F3A624FCE1BF009CA4A9 /* iOS-JP10Key */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF9F3BB24FCE1C0009CA4A9 /* Build configuration list for PBXNativeTarget "iOS-JP10Key" */;
+			buildPhases = (
+				5AF9F3A324FCE1BF009CA4A9 /* Sources */,
+				5AF9F3A424FCE1BF009CA4A9 /* Frameworks */,
+				5AF9F3A524FCE1BF009CA4A9 /* Resources */,
+				5AF9F3CD24FCE2F9009CA4A9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF9F3C824FCE2F9009CA4A9 /* PBXTargetDependency */,
+			);
+			name = "iOS-JP10Key";
+			productName = "iOS-JP10Key";
+			productReference = 5AF9F3A724FCE1BF009CA4A9 /* iOS-JP10Key.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AF9F3C124FCE2F9009CA4A9 /* JP10Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF9F3CA24FCE2F9009CA4A9 /* Build configuration list for PBXNativeTarget "JP10Keyboard" */;
+			buildPhases = (
+				5AF9F3BE24FCE2F9009CA4A9 /* Sources */,
+				5AF9F3BF24FCE2F9009CA4A9 /* Frameworks */,
+				5AF9F3C024FCE2F9009CA4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JP10Keyboard;
+			productName = JP10Keyboard;
+			productReference = 5AF9F3C224FCE2F9009CA4A9 /* JP10Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5AF9F3ED24FCEC88009CA4A9 /* JP10Keyboard-simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF9F3FF24FCEC88009CA4A9 /* Build configuration list for PBXNativeTarget "JP10Keyboard-simulator" */;
+			buildPhases = (
+				5AF9F3EE24FCEC88009CA4A9 /* Sources */,
+				5AF9F3FB24FCEC88009CA4A9 /* Frameworks */,
+				5AF9F3FC24FCEC88009CA4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JP10Keyboard-simulator";
+			productName = JP10Keyboard;
+			productReference = 5AF9F40224FCEC88009CA4A9 /* JP10Keyboard-simulator.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF9F39F24FCE1BF009CA4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "ORGANIZATION-NAME";
+				TargetAttributes = {
+					5AF9F3A624FCE1BF009CA4A9 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5AF9F3C124FCE2F9009CA4A9 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = 5AF9F3A224FCE1BF009CA4A9 /* Build configuration list for PBXProject "iOS-JP10Key" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				Base,
+			);
+			mainGroup = 5AF9F39E24FCE1BF009CA4A9;
+			productRefGroup = 5AF9F3A824FCE1BF009CA4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF9F3A624FCE1BF009CA4A9 /* iOS-JP10Key */,
+				5AF9F3C124FCE2F9009CA4A9 /* JP10Keyboard */,
+				5AF9F3ED24FCEC88009CA4A9 /* JP10Keyboard-simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AF9F3A524FCE1BF009CA4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9F3B724FCE1C0009CA4A9 /* LaunchScreen.storyboard in Resources */,
+				5AF9F3B424FCE1C0009CA4A9 /* Assets.xcassets in Resources */,
+				5AF9F3B224FCE1BF009CA4A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9F3C024FCE2F9009CA4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9F3E224FCE551009CA4A9 /* Candidate.storyboard in Resources */,
+				5AF9F3E824FCE551009CA4A9 /* KeyboardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9F3FC24FCEC88009CA4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9F3FD24FCEC88009CA4A9 /* Candidate.storyboard in Resources */,
+				5AF9F3FE24FCEC88009CA4A9 /* KeyboardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF9F3A324FCE1BF009CA4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9F3AF24FCE1BF009CA4A9 /* ViewController.swift in Sources */,
+				5AF9F3AB24FCE1BF009CA4A9 /* AppDelegate.swift in Sources */,
+				5AF9F3AD24FCE1BF009CA4A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9F3BE24FCE2F9009CA4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9F3E524FCE551009CA4A9 /* RawKeyManager.swift in Sources */,
+				5AF9F3E624FCE551009CA4A9 /* KeyboardView.swift in Sources */,
+				5AF9F3EB24FCE551009CA4A9 /* KeyButton.swift in Sources */,
+				5AF9F3DF24FCE551009CA4A9 /* KeyLabels.swift in Sources */,
+				5AF9F3EA24FCE551009CA4A9 /* KeyDirection.swift in Sources */,
+				5AF9F3C524FCE2F9009CA4A9 /* KeyboardViewController.swift in Sources */,
+				5AF9F3EC24FCE551009CA4A9 /* KeyboardMode.swift in Sources */,
+				5AF9F3E924FCE551009CA4A9 /* KeyPopupView.swift in Sources */,
+				5AF9F3E424FCE551009CA4A9 /* InputCandidate.m in Sources */,
+				5AF9F3E324FCE551009CA4A9 /* KanaMod.swift in Sources */,
+				5AF9F3E124FCE551009CA4A9 /* CandidateCollectionViewController.swift in Sources */,
+				5AF9F3E024FCE551009CA4A9 /* InputManager.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9F3EE24FCEC88009CA4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9F3EF24FCEC88009CA4A9 /* RawKeyManager.swift in Sources */,
+				5AF9F3F024FCEC88009CA4A9 /* KeyboardView.swift in Sources */,
+				5AF9F3F124FCEC88009CA4A9 /* KeyButton.swift in Sources */,
+				5AF9F3F224FCEC88009CA4A9 /* KeyLabels.swift in Sources */,
+				5AF9F3F324FCEC88009CA4A9 /* KeyDirection.swift in Sources */,
+				5AF9F3F424FCEC88009CA4A9 /* KeyboardViewController.swift in Sources */,
+				5AF9F3F524FCEC88009CA4A9 /* KeyboardMode.swift in Sources */,
+				5AF9F3F624FCEC88009CA4A9 /* KeyPopupView.swift in Sources */,
+				5AF9F3F724FCEC88009CA4A9 /* InputCandidate.m in Sources */,
+				5AF9F3F824FCEC88009CA4A9 /* KanaMod.swift in Sources */,
+				5AF9F3F924FCEC88009CA4A9 /* CandidateCollectionViewController.swift in Sources */,
+				5AF9F3FA24FCEC88009CA4A9 /* InputManager.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AF9F3C824FCE2F9009CA4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF9F3C124FCE2F9009CA4A9 /* JP10Keyboard */;
+			targetProxy = 5AF9F3C724FCE2F9009CA4A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AF9F3B024FCE1BF009CA4A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF9F3B124FCE1BF009CA4A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AF9F3B524FCE1C0009CA4A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF9F3B624FCE1C0009CA4A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AF9F3B924FCE1C0009CA4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		5AF9F3BA24FCE1C0009CA4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		5AF9F3BC24FCE1C0009CA4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "iOS-JP10Key/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ORGANIZATION-IDENTIFIER.iOS-JP10Key";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5AF9F3BD24FCE1C0009CA4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "iOS-JP10Key/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ORGANIZATION-IDENTIFIER.iOS-JP10Key";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5AF9F3CB24FCE2F9009CA4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/third_party/protobuf/src",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/DerivedSources/Release/proto_out",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src",
+				);
+				INFOPLIST_FILE = JP10Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/Release-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ORGANIZATION-IDENTIFIER.iOS-JP10Key.JP10Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "JP10Keyboard/JP10Keyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5AF9F3CC24FCE2F9009CA4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/third_party/protobuf/src",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/DerivedSources/Release/proto_out",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src",
+				);
+				INFOPLIST_FILE = JP10Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/Release-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ORGANIZATION-IDENTIFIER.iOS-JP10Key.JP10Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "JP10Keyboard/JP10Keyboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5AF9F40024FCEC88009CA4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Mozc-for-iOS/src",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/DerivedSources/Release/proto_out",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/third_party/protobuf/src",
+				);
+				INFOPLIST_FILE = "JP10Keyboard copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/Release-iphonesimulator",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ORGANIZATION-IDENTIFIER.iOS-JP10Key.JP10Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "JP10Keyboard/JP10Keyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5AF9F40124FCEC88009CA4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Mozc-for-iOS/src",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/DerivedSources/Release/proto_out",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/third_party/protobuf/src",
+				);
+				INFOPLIST_FILE = "JP10Keyboard copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/Release-iphonesimulator",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ORGANIZATION-IDENTIFIER.iOS-JP10Key.JP10Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "JP10Keyboard/JP10Keyboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF9F3A224FCE1BF009CA4A9 /* Build configuration list for PBXProject "iOS-JP10Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9F3B924FCE1C0009CA4A9 /* Debug */,
+				5AF9F3BA24FCE1C0009CA4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF9F3BB24FCE1C0009CA4A9 /* Build configuration list for PBXNativeTarget "iOS-JP10Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9F3BC24FCE1C0009CA4A9 /* Debug */,
+				5AF9F3BD24FCE1C0009CA4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF9F3CA24FCE2F9009CA4A9 /* Build configuration list for PBXNativeTarget "JP10Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9F3CB24FCE2F9009CA4A9 /* Debug */,
+				5AF9F3CC24FCE2F9009CA4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF9F3FF24FCEC88009CA4A9 /* Build configuration list for PBXNativeTarget "JP10Keyboard-simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9F40024FCEC88009CA4A9 /* Debug */,
+				5AF9F40124FCEC88009CA4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF9F39F24FCE1BF009CA4A9 /* Project object */;
+}

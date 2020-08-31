@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KeyboardView" customModule="Keyboard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="288"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ry-eZ-uAM" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="2" y="2" width="60" height="68"/>
+                    <state key="normal" title="☆123">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                            <color key="value" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" tag="110" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9m-10-eFK" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="66" y="2" width="60" height="68"/>
+                    <state key="normal" title="あ">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="120" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gnx-ln-gsA" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="130" y="2" width="60" height="68"/>
+                    <state key="normal" title="か">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="130" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GQ-nd-hqK" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="194" y="2" width="60" height="68"/>
+                    <state key="normal" title="さ">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="140" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ig3-1m-TZw" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="258" y="2" width="60" height="68"/>
+                    <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <state key="normal" image="delete.left" catalog="system">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                            <color key="value" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbo-pS-erY" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="2" y="74" width="60" height="68"/>
+                    <state key="normal" title="ABC">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                            <color key="value" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XeM-ox-89i" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="66" y="74" width="60" height="68"/>
+                    <state key="normal" title="た">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="121" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Kd-TE-NGb" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="130" y="74" width="60" height="68"/>
+                    <state key="normal" title="な">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="131" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyA-9m-S9p" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="194" y="74" width="60" height="68"/>
+                    <state key="normal" title="は">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="141" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kh5-w0-O79" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="258" y="74" width="60" height="68"/>
+                    <state key="normal" title="空白">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                            <color key="value" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ulw-p5-kiX" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="2" y="146" width="60" height="68"/>
+                    <state key="normal" title="あいう">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                            <color key="value" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaP-lZ-0Su" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="66" y="146" width="60" height="68"/>
+                    <state key="normal" title="ま">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="122" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJ8-Li-YLQ" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="130" y="146" width="60" height="68"/>
+                    <state key="normal" title="や">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="132" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55P-5c-B23" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="194" y="146" width="60" height="68"/>
+                    <state key="normal" title="ら">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwg-Qe-mKg" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="258" y="146" width="60" height="140"/>
+                    <state key="normal" title="改行">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                            <color key="value" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCT-9v-SkF" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="2" y="218" width="60" height="68"/>
+                    <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <state key="normal" image="globe" catalog="system">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                            <color key="value" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" tag="113" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXw-Ng-L5y" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="66" y="218" width="60" height="68"/>
+                    <state key="normal" title="ﾞﾟ">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="123" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XL6-67-PR9" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="130" y="218" width="60" height="68"/>
+                    <state key="normal" title="わ">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="133" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sx0-ub-p3I" customClass="KeyButton" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="194" y="218" width="60" height="68"/>
+                    <state key="normal" title="､｡?!">
+                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hkY-0O-rt9" customClass="KeyPopupView" customModule="Keyboard" customModuleProvider="target">
+                    <rect key="frame" x="214" y="158" width="90" height="86"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j32-Bs-YPE">
+                            <rect key="frame" x="0.0" y="0.0" width="90" height="86"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="j32-Bs-YPE" firstAttribute="top" secondItem="hkY-0O-rt9" secondAttribute="top" id="Lka-WU-mzR"/>
+                        <constraint firstAttribute="trailing" secondItem="j32-Bs-YPE" secondAttribute="trailing" id="MrW-Yc-pSb"/>
+                        <constraint firstAttribute="bottom" secondItem="j32-Bs-YPE" secondAttribute="bottom" id="Tod-N2-Rzc"/>
+                        <constraint firstItem="j32-Bs-YPE" firstAttribute="leading" secondItem="hkY-0O-rt9" secondAttribute="leading" id="U63-EF-03n"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sx0-ub-p3I" firstAttribute="centerY" secondItem="PCT-9v-SkF" secondAttribute="centerY" id="03w-wm-SMS"/>
+                <constraint firstItem="2Kd-TE-NGb" firstAttribute="centerY" secondItem="bbo-pS-erY" secondAttribute="centerY" id="1Uj-Fg-Ph9"/>
+                <constraint firstItem="g9m-10-eFK" firstAttribute="leading" secondItem="4Ry-eZ-uAM" secondAttribute="trailing" constant="4" id="1wt-nj-MJc"/>
+                <constraint firstItem="XeM-ox-89i" firstAttribute="width" secondItem="bbo-pS-erY" secondAttribute="width" id="26o-Ju-nGT"/>
+                <constraint firstItem="2Kd-TE-NGb" firstAttribute="width" secondItem="bbo-pS-erY" secondAttribute="width" id="3oo-sV-4vV"/>
+                <constraint firstItem="bbo-pS-erY" firstAttribute="height" secondItem="4Ry-eZ-uAM" secondAttribute="height" id="5lD-Z2-cGx"/>
+                <constraint firstItem="sx0-ub-p3I" firstAttribute="width" secondItem="PCT-9v-SkF" secondAttribute="width" id="9Bp-Dq-fQM"/>
+                <constraint firstItem="XL6-67-PR9" firstAttribute="width" secondItem="PCT-9v-SkF" secondAttribute="width" id="AwI-ZN-exc"/>
+                <constraint firstItem="mwg-Qe-mKg" firstAttribute="leading" secondItem="sx0-ub-p3I" secondAttribute="trailing" constant="4" id="B6K-wR-2EY"/>
+                <constraint firstItem="ig3-1m-TZw" firstAttribute="width" secondItem="4Ry-eZ-uAM" secondAttribute="width" id="BCb-9h-YxJ"/>
+                <constraint firstItem="XeM-ox-89i" firstAttribute="centerY" secondItem="bbo-pS-erY" secondAttribute="centerY" id="DnY-RM-gF8"/>
+                <constraint firstItem="cXw-Ng-L5y" firstAttribute="height" secondItem="PCT-9v-SkF" secondAttribute="height" id="DpS-33-G7r"/>
+                <constraint firstItem="55P-5c-B23" firstAttribute="height" secondItem="Ulw-p5-kiX" secondAttribute="height" id="FRg-PU-JjJ"/>
+                <constraint firstItem="mwg-Qe-mKg" firstAttribute="top" secondItem="kh5-w0-O79" secondAttribute="bottom" constant="4" id="FVl-kO-tq9"/>
+                <constraint firstItem="cXw-Ng-L5y" firstAttribute="width" secondItem="PCT-9v-SkF" secondAttribute="width" id="Gc7-R6-wmh"/>
+                <constraint firstItem="4Ry-eZ-uAM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="HTJ-ux-98J"/>
+                <constraint firstItem="hkY-0O-rt9" firstAttribute="height" secondItem="g9m-10-eFK" secondAttribute="height" multiplier="4:3" id="I3f-KF-N5I"/>
+                <constraint firstItem="Gnx-ln-gsA" firstAttribute="height" secondItem="4Ry-eZ-uAM" secondAttribute="height" id="Iyu-ww-YeQ"/>
+                <constraint firstItem="Gnx-ln-gsA" firstAttribute="width" secondItem="4Ry-eZ-uAM" secondAttribute="width" id="JHa-eu-wqP"/>
+                <constraint firstItem="iJ8-Li-YLQ" firstAttribute="height" secondItem="Ulw-p5-kiX" secondAttribute="height" id="JIS-TY-hTK"/>
+                <constraint firstItem="Ulw-p5-kiX" firstAttribute="height" secondItem="4Ry-eZ-uAM" secondAttribute="height" id="JMq-Op-xFj"/>
+                <constraint firstItem="kh5-w0-O79" firstAttribute="width" secondItem="bbo-pS-erY" secondAttribute="width" id="JYw-5b-qvY"/>
+                <constraint firstItem="kh5-w0-O79" firstAttribute="height" secondItem="bbo-pS-erY" secondAttribute="height" id="Jhd-ob-SL4"/>
+                <constraint firstItem="bbo-pS-erY" firstAttribute="top" secondItem="4Ry-eZ-uAM" secondAttribute="bottom" constant="4" id="Jjg-7m-j73"/>
+                <constraint firstItem="uyA-9m-S9p" firstAttribute="leading" secondItem="2Kd-TE-NGb" secondAttribute="trailing" constant="4" id="K34-0k-hRW"/>
+                <constraint firstItem="4GQ-nd-hqK" firstAttribute="leading" secondItem="Gnx-ln-gsA" secondAttribute="trailing" constant="4" id="Lbb-vc-Uuh"/>
+                <constraint firstItem="cXw-Ng-L5y" firstAttribute="leading" secondItem="PCT-9v-SkF" secondAttribute="trailing" constant="4" id="LjP-ND-JX3"/>
+                <constraint firstItem="2Kd-TE-NGb" firstAttribute="height" secondItem="bbo-pS-erY" secondAttribute="height" id="M5R-ze-NNZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="PCT-9v-SkF" secondAttribute="bottom" constant="2" id="MCi-CG-BFl"/>
+                <constraint firstItem="zaP-lZ-0Su" firstAttribute="width" secondItem="Ulw-p5-kiX" secondAttribute="width" id="MjR-Ps-BLk"/>
+                <constraint firstItem="Gnx-ln-gsA" firstAttribute="leading" secondItem="g9m-10-eFK" secondAttribute="trailing" constant="4" id="NCT-bV-t71"/>
+                <constraint firstItem="ig3-1m-TZw" firstAttribute="leading" secondItem="4GQ-nd-hqK" secondAttribute="trailing" constant="4" id="OP5-l9-I0q"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ig3-1m-TZw" secondAttribute="trailing" constant="2" id="OX4-I5-26c"/>
+                <constraint firstItem="ig3-1m-TZw" firstAttribute="height" secondItem="4Ry-eZ-uAM" secondAttribute="height" id="Op4-QA-oeR"/>
+                <constraint firstItem="uyA-9m-S9p" firstAttribute="centerY" secondItem="bbo-pS-erY" secondAttribute="centerY" id="PI1-Lc-qvB"/>
+                <constraint firstItem="XL6-67-PR9" firstAttribute="centerY" secondItem="PCT-9v-SkF" secondAttribute="centerY" id="PRC-CZ-4n2"/>
+                <constraint firstItem="sx0-ub-p3I" firstAttribute="height" secondItem="PCT-9v-SkF" secondAttribute="height" id="QhJ-qy-9mM"/>
+                <constraint firstItem="XL6-67-PR9" firstAttribute="leading" secondItem="cXw-Ng-L5y" secondAttribute="trailing" constant="4" id="RCO-2f-fJH"/>
+                <constraint firstItem="PCT-9v-SkF" firstAttribute="height" secondItem="4Ry-eZ-uAM" secondAttribute="height" id="SEf-ps-YfV"/>
+                <constraint firstItem="iJ8-Li-YLQ" firstAttribute="leading" secondItem="zaP-lZ-0Su" secondAttribute="trailing" constant="4" id="TPm-9L-zPh"/>
+                <constraint firstItem="zaP-lZ-0Su" firstAttribute="centerY" secondItem="Ulw-p5-kiX" secondAttribute="centerY" id="V4P-p3-4ub"/>
+                <constraint firstItem="kh5-w0-O79" firstAttribute="leading" secondItem="uyA-9m-S9p" secondAttribute="trailing" constant="4" id="Vec-m1-S1r"/>
+                <constraint firstItem="Ulw-p5-kiX" firstAttribute="top" secondItem="bbo-pS-erY" secondAttribute="bottom" constant="4" id="Wdt-5r-ktv"/>
+                <constraint firstItem="4GQ-nd-hqK" firstAttribute="centerY" secondItem="4Ry-eZ-uAM" secondAttribute="centerY" id="Wek-gJ-gUz"/>
+                <constraint firstItem="XL6-67-PR9" firstAttribute="height" secondItem="PCT-9v-SkF" secondAttribute="height" id="WvH-Kv-uJo"/>
+                <constraint firstItem="2Kd-TE-NGb" firstAttribute="leading" secondItem="XeM-ox-89i" secondAttribute="trailing" constant="4" id="Xch-Sv-bMV"/>
+                <constraint firstItem="uyA-9m-S9p" firstAttribute="height" secondItem="bbo-pS-erY" secondAttribute="height" id="XsC-Dd-J0T"/>
+                <constraint firstItem="ig3-1m-TZw" firstAttribute="centerY" secondItem="4Ry-eZ-uAM" secondAttribute="centerY" id="YJe-ai-jw2"/>
+                <constraint firstItem="4GQ-nd-hqK" firstAttribute="width" secondItem="4Ry-eZ-uAM" secondAttribute="width" id="b2F-QG-f6R"/>
+                <constraint firstItem="g9m-10-eFK" firstAttribute="centerY" secondItem="4Ry-eZ-uAM" secondAttribute="centerY" id="baG-ua-yUs"/>
+                <constraint firstItem="mwg-Qe-mKg" firstAttribute="width" secondItem="Ulw-p5-kiX" secondAttribute="width" id="btZ-Ei-jQc"/>
+                <constraint firstItem="55P-5c-B23" firstAttribute="leading" secondItem="iJ8-Li-YLQ" secondAttribute="trailing" constant="4" id="cM0-WC-E9e"/>
+                <constraint firstItem="55P-5c-B23" firstAttribute="centerY" secondItem="Ulw-p5-kiX" secondAttribute="centerY" id="evP-J9-bIc"/>
+                <constraint firstItem="PCT-9v-SkF" firstAttribute="top" secondItem="Ulw-p5-kiX" secondAttribute="bottom" constant="4" id="f80-r7-qU8"/>
+                <constraint firstItem="g9m-10-eFK" firstAttribute="width" secondItem="4Ry-eZ-uAM" secondAttribute="width" id="gIX-dY-hXH"/>
+                <constraint firstItem="Ulw-p5-kiX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="haL-TH-lb0"/>
+                <constraint firstItem="zaP-lZ-0Su" firstAttribute="height" secondItem="Ulw-p5-kiX" secondAttribute="height" id="iYM-tp-HNy"/>
+                <constraint firstItem="XeM-ox-89i" firstAttribute="leading" secondItem="bbo-pS-erY" secondAttribute="trailing" constant="4" id="iYt-Oe-utH"/>
+                <constraint firstItem="mwg-Qe-mKg" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-2" id="jju-id-UMH"/>
+                <constraint firstItem="bbo-pS-erY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="kLA-Bj-bIQ"/>
+                <constraint firstItem="mwg-Qe-mKg" firstAttribute="width" secondItem="PCT-9v-SkF" secondAttribute="width" id="kZ0-Df-oGb"/>
+                <constraint firstItem="55P-5c-B23" firstAttribute="width" secondItem="Ulw-p5-kiX" secondAttribute="width" id="lnH-uY-5Xh"/>
+                <constraint firstItem="sx0-ub-p3I" firstAttribute="leading" secondItem="XL6-67-PR9" secondAttribute="trailing" constant="4" id="mED-7H-fTS"/>
+                <constraint firstItem="mwg-Qe-mKg" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-2" id="mOZ-bF-wWL"/>
+                <constraint firstItem="XeM-ox-89i" firstAttribute="height" secondItem="bbo-pS-erY" secondAttribute="height" id="oiR-QT-AWe"/>
+                <constraint firstItem="kh5-w0-O79" firstAttribute="centerY" secondItem="bbo-pS-erY" secondAttribute="centerY" id="pWh-MK-PiA"/>
+                <constraint firstItem="4GQ-nd-hqK" firstAttribute="height" secondItem="4Ry-eZ-uAM" secondAttribute="height" id="pzb-nL-0Yy"/>
+                <constraint firstItem="4Ry-eZ-uAM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="2" id="qbq-vR-qaH"/>
+                <constraint firstItem="kh5-w0-O79" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-2" id="tAp-cu-58i"/>
+                <constraint firstItem="uyA-9m-S9p" firstAttribute="width" secondItem="bbo-pS-erY" secondAttribute="width" id="uNr-XP-PC6"/>
+                <constraint firstItem="mwg-Qe-mKg" firstAttribute="leading" secondItem="55P-5c-B23" secondAttribute="trailing" constant="4" id="yCS-Dd-rVc"/>
+                <constraint firstItem="Gnx-ln-gsA" firstAttribute="centerY" secondItem="4Ry-eZ-uAM" secondAttribute="centerY" id="ye3-R8-Z54"/>
+                <constraint firstItem="hkY-0O-rt9" firstAttribute="width" secondItem="g9m-10-eFK" secondAttribute="width" multiplier="4:3" id="z4p-MX-fSa"/>
+                <constraint firstItem="g9m-10-eFK" firstAttribute="height" secondItem="4Ry-eZ-uAM" secondAttribute="height" id="zF6-ty-3hc"/>
+                <constraint firstItem="iJ8-Li-YLQ" firstAttribute="width" secondItem="Ulw-p5-kiX" secondAttribute="width" id="zYe-w2-Ri4"/>
+                <constraint firstItem="cXw-Ng-L5y" firstAttribute="centerY" secondItem="PCT-9v-SkF" secondAttribute="centerY" id="zZf-bX-SGl"/>
+                <constraint firstItem="iJ8-Li-YLQ" firstAttribute="centerY" secondItem="Ulw-p5-kiX" secondAttribute="centerY" id="zj0-2T-nLN"/>
+                <constraint firstItem="zaP-lZ-0Su" firstAttribute="leading" secondItem="Ulw-p5-kiX" secondAttribute="trailing" constant="4" id="zly-Nn-112"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="abcModeKey" destination="bbo-pS-erY" id="5IW-iD-izd"/>
+                <outlet property="changeKey" destination="PCT-9v-SkF" id="Wyt-Eh-VyF"/>
+                <outlet property="deleteKey" destination="ig3-1m-TZw" id="E67-L4-mO2"/>
+                <outlet property="kanaModeKey" destination="Ulw-p5-kiX" id="mCe-Q8-u6E"/>
+                <outlet property="keyPopupLabel" destination="j32-Bs-YPE" id="3Hi-9m-2Ft"/>
+                <outlet property="keyPopupView" destination="hkY-0O-rt9" id="3qm-q1-N1G"/>
+                <outlet property="numModeKey" destination="4Ry-eZ-uAM" id="qli-XS-iIN"/>
+                <outlet property="returnKey" destination="mwg-Qe-mKg" id="Jae-SQ-cfd"/>
+                <outlet property="spaceKey" destination="kh5-w0-O79" id="UBi-lD-H7h"/>
+                <outletCollection property="charKeys" destination="g9m-10-eFK" collectionClass="NSMutableArray" id="2Mg-Kd-9M4"/>
+                <outletCollection property="charKeys" destination="Gnx-ln-gsA" collectionClass="NSMutableArray" id="Qxv-nU-XZn"/>
+                <outletCollection property="charKeys" destination="4GQ-nd-hqK" collectionClass="NSMutableArray" id="yjP-AF-rTC"/>
+                <outletCollection property="charKeys" destination="XeM-ox-89i" collectionClass="NSMutableArray" id="VB8-dr-WW0"/>
+                <outletCollection property="charKeys" destination="2Kd-TE-NGb" collectionClass="NSMutableArray" id="W34-b9-l0t"/>
+                <outletCollection property="charKeys" destination="uyA-9m-S9p" collectionClass="NSMutableArray" id="pbp-3u-vl0"/>
+                <outletCollection property="charKeys" destination="zaP-lZ-0Su" collectionClass="NSMutableArray" id="GYz-X0-2eN"/>
+                <outletCollection property="charKeys" destination="iJ8-Li-YLQ" collectionClass="NSMutableArray" id="b2w-oE-pcb"/>
+                <outletCollection property="charKeys" destination="55P-5c-B23" collectionClass="NSMutableArray" id="O2I-Qc-s3B"/>
+                <outletCollection property="charKeys" destination="cXw-Ng-L5y" collectionClass="NSMutableArray" id="NGY-iU-LB3"/>
+                <outletCollection property="charKeys" destination="XL6-67-PR9" collectionClass="NSMutableArray" id="tmE-6z-jc9"/>
+                <outletCollection property="charKeys" destination="sx0-ub-p3I" collectionClass="NSMutableArray" id="LvA-l1-0d7"/>
+            </connections>
+            <point key="canvasLocation" x="138.75" y="-38.028169014084504"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="delete.left" catalog="system" width="128" height="104"/>
+        <image name="globe" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
